@@ -898,8 +898,8 @@
 2 PLAC Birkenhain
 1 FAMS @F14@
 0 @I23@ INDI
-1 NAME Katharina /Meutzner/
-2 GIVN Katharina
+1 NAME Catharina /Meutzner/
+2 GIVN Catharina
 2 SURN Meutzner
 1 SEX F
 1 FAMC @F15@
@@ -4161,8 +4161,8 @@
 2 PLAC 
 1 FAMS @F53@
 0 @I94@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 EVEN 
@@ -4663,8 +4663,8 @@
 2 PLAC Birkenhain
 1 FAMS @F56@
 0 @I104@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 DEAT
@@ -6201,8 +6201,8 @@
 2 PLAC 
 1 FAMC @F95@
 0 @I144@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 EVEN 
@@ -7434,8 +7434,8 @@
 2 PLAC 
 1 FAMS @F111@
 0 @I186@ INDI
-1 NAME Katharina /Voit/
-2 GIVN Katharina
+1 NAME Catharina /Voit/
+2 GIVN Catharina
 2 SURN Voit
 1 SEX F
 1 DEAT
@@ -8233,8 +8233,8 @@
 1 FAMC @F760@
 1 FAMS @F337@
 0 @I223@ INDI
-1 NAME Katharina /Löncke/
-2 GIVN Katharina
+1 NAME Catharina /Löncke/
+2 GIVN Catharina
 2 SURN Löncke
 1 SEX F
 1 CHR
@@ -9480,8 +9480,8 @@
 2 PLAC Wilsdruff
 1 FAMS @F168@
 0 @I277@ INDI
-1 NAME Katharina /Hoffman/
-2 GIVN Katharina
+1 NAME Catharina /Hoffman/
+2 GIVN Catharina
 2 SURN Hoffman
 1 SEX F
 1 CHR
@@ -10328,8 +10328,8 @@
 2 PLAC 
 1 FAMC @F185@
 0 @I314@ INDI
-1 NAME Katharina /Schultz/
-2 GIVN Katharina
+1 NAME Catharina /Schultz/
+2 GIVN Catharina
 2 SURN Schultz
 1 SEX F
 1 CHR
@@ -11271,8 +11271,8 @@
 2 PLAC Limbach
 1 FAMC @F24@
 0 @I361@ INDI
-1 NAME Katharina /Henicke/
-2 GIVN Katharina
+1 NAME Catharina /Henicke/
+2 GIVN Catharina
 2 SURN Henicke
 1 SEX F
 1 CHR
@@ -14030,8 +14030,8 @@
 1 FAMS @F249@
 1 FAMS @F317@
 0 @I503@ INDI
-1 NAME Katharina /Böberitzsch/
-2 GIVN Katharina
+1 NAME Catharina /Böberitzsch/
+2 GIVN Catharina
 2 SURN Böberitzsch
 1 SEX F
 1 EVEN 
@@ -14422,8 +14422,8 @@
 1 FAMC @F219@
 1 FAMS @F395@
 0 @I516@ INDI
-1 NAME Katharina /Rülcker/
-2 GIVN Katharina
+1 NAME Catharina /Rülcker/
+2 GIVN Catharina
 2 SURN Rülcker
 1 SEX F
 1 CHR
@@ -14715,6 +14715,10 @@
 1 EVEN 
 2 TYPE Weiland
 2 DATE 13.11.1656
+2 PLAC Sora
+1 EVEN 
+2 TYPE Weiland
+2 DATE 28.02.1664
 2 PLAC Sora
 1 FAMC @F105@
 1 FAMS @F671@
@@ -16268,8 +16272,8 @@
 2 PLAC Birkenhain
 1 FAMC @F246@
 0 @I619@ INDI
-1 NAME Katharina /Naumann/
-2 GIVN Katharina
+1 NAME Catharina /Naumann/
+2 GIVN Catharina
 2 SURN Naumann
 1 SEX F
 1 EVEN 
@@ -20003,8 +20007,8 @@
 1 FAMC @F286@
 1 FAMS @F667@
 0 @I795@ INDI
-1 NAME Katharina /Kobitzsch/
-2 GIVN Katharina
+1 NAME Catharina /Kobitzsch/
+2 GIVN Catharina
 2 SURN Kobitzsch
 1 SEX F
 1 CHR
@@ -21038,6 +21042,9 @@
 1 CHR
 2 DATE 01.01.1580
 2 PLAC Sora
+1 DEAT
+2 DATE 14.04.1662
+2 PLAC Birkenhain
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 21.01.1606
@@ -21741,8 +21748,8 @@
 2 PLAC Lampersdorf
 1 FAMS @F327@
 0 @I907@ INDI
-1 NAME Katharina /Meine/
-2 GIVN Katharina
+1 NAME Catharina /Meine/
+2 GIVN Catharina
 2 SURN Meine
 1 SEX F
 1 DEAT
@@ -21943,8 +21950,8 @@
 2 PLAC 
 1 FAMC @F279@
 0 @I928@ INDI
-1 NAME Katharina /Birckner/
-2 GIVN Katharina
+1 NAME Catharina /Birckner/
+2 GIVN Catharina
 2 SURN Birckner
 1 SEX F
 1 DEAT
@@ -22029,8 +22036,8 @@
 2 PLAC Lampersdorf
 1 FAMC @F339@
 0 @I937@ INDI
-1 NAME Katharina /Götze/
-2 GIVN Katharina
+1 NAME Catharina /Götze/
+2 GIVN Catharina
 2 SURN Götze
 1 SEX F
 1 DEAT
@@ -22346,8 +22353,8 @@
 2 PLAC 
 1 FAMS @F353@
 0 @I959@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 DEAT
@@ -23128,8 +23135,8 @@
 2 PLAC 
 1 FAMS @F372@
 0 @I1019@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 EVEN 
@@ -25101,6 +25108,10 @@
 2 TYPE Erwähnung
 2 DATE 15.04.1655
 2 PLAC Sora
+1 EVEN der Erste
+2 TYPE Erwähnung
+2 DATE 09.03.1662
+2 PLAC Sora
 1 FAMC @F144@
 1 FAMS @F693@
 0 @I1108@ INDI
@@ -25759,8 +25770,8 @@
 2 PLAC Limbach
 1 FAMC @F416@
 0 @I1147@ INDI
-1 NAME Katharina /Hoier/
-2 GIVN Katharina
+1 NAME Catharina /Hoier/
+2 GIVN Catharina
 2 SURN Hoier
 1 SEX F
 1 CHR
@@ -26723,6 +26734,14 @@
 2 TYPE Erwähnung
 2 DATE 15.02.1659
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.10.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 10.01.1661
+2 PLAC Lampersdorf
 1 FAMC @F387@
 1 FAMS @F600@
 0 @I1182@ INDI
@@ -26830,8 +26849,8 @@
 2 DATE 25.02.1588
 2 PLAC Schmiedewalde
 0 @I1189@ INDI
-1 NAME Katharina /Schubert/
-2 GIVN Katharina
+1 NAME Catharina /Schubert/
+2 GIVN Catharina
 2 SURN Schubert
 1 SEX F
 1 CHR
@@ -26857,8 +26876,8 @@
 1 SEX M
 1 FAMS @F435@
 0 @I1192@ INDI
-1 NAME Katharina /Bormann/
-2 GIVN Katharina
+1 NAME Catharina /Bormann/
+2 GIVN Catharina
 2 SURN Bormann
 1 SEX F
 1 FAMC @F428@
@@ -27723,6 +27742,14 @@
 2 TYPE Erwähnung
 2 DATE 12.12.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 19.09.1661
+2 PLAC Sora
+1 EVEN der Eltere
+2 TYPE Erwähnung
+2 DATE 25.11.1663
+2 PLAC Sora
 1 FAMC @F382@
 1 FAMS @F738@
 0 @I1247@ INDI
@@ -27761,6 +27788,10 @@
 2 TYPE Zeuge
 2 DATE 11.04.1620
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Weiland
+2 DATE 22.01.1663
+2 PLAC Lampersdorf
 1 FAMC @F396@
 1 FAMS @F913@
 0 @I1249@ INDI
@@ -27785,6 +27816,9 @@
 1 CHR
 2 DATE 20.05.1590
 2 PLAC 
+1 DEAT
+2 DATE 13.06.1660
+2 PLAC Limbach
 1 EVEN Hoffmeister
 2 TYPE Beruf
 2 DATE 21.02.1635
@@ -27958,8 +27992,8 @@
 1 FAMC @F88@
 1 FAMS @F521@
 0 @I1258@ INDI
-1 NAME Katharina /Leuderitz/
-2 GIVN Katharina
+1 NAME Catharina /Leuderitz/
+2 GIVN Catharina
 2 SURN Leuderitz
 1 SEX F
 1 CHR
@@ -28385,6 +28419,22 @@
 2 TYPE Beruf
 2 DATE 12.02.1656
 2 PLAC Birkenhain
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 26.02.1661
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 14.12.1661
+2 PLAC Birkenhain
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 27.05.1661
+2 PLAC Birkenhain
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 22.06.1663
+2 PLAC Birkenhain
 1 FAMC @F214@
 1 FAMS @F714@
 0 @I1286@ INDI
@@ -28550,6 +28600,18 @@
 1 EVEN Kirchvater
 2 TYPE Beruf
 2 DATE 30.09.1659
+2 PLAC Sora
+1 EVEN Bauer
+2 TYPE Erwähnung
+2 DATE 13.11.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.02.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 03.09.1663
 2 PLAC Sora
 1 FAMC @F430@
 1 FAMS @F743@
@@ -28813,8 +28875,8 @@
 2 PLAC Limbach
 1 FAMS @F473@
 0 @I1306@ INDI
-1 NAME Katharina /Beuchlos/
-2 GIVN Katharina
+1 NAME Catharina /Beuchlos/
+2 GIVN Catharina
 2 SURN Beuchlos
 1 SEX F
 1 DEAT
@@ -28892,8 +28954,8 @@
 2 PLAC Limbach
 1 FAMS @F479@
 0 @I1314@ INDI
-1 NAME Katharina /Mercker/
-2 GIVN Katharina
+1 NAME Catharina /Mercker/
+2 GIVN Catharina
 2 SURN Mercker
 1 SEX F
 1 FAMC @F452@
@@ -29151,8 +29213,8 @@
 2 PLAC Tanneberg
 1 FAMS @F484@
 0 @I1336@ INDI
-1 NAME Katharina /Schweicker/
-2 GIVN Katharina
+1 NAME Catharina /Schweicker/
+2 GIVN Catharina
 2 SURN Schweicker
 1 SEX F
 1 FAMC @F484@
@@ -29547,8 +29609,8 @@
 2 PLAC Klipphausen
 1 FAMS @F511@
 0 @I1371@ INDI
-1 NAME Katharina /Claus/
-2 GIVN Katharina
+1 NAME Catharina /Claus/
+2 GIVN Catharina
 2 SURN Claus
 1 SEX F
 1 FAMC @F511@
@@ -31481,6 +31543,10 @@
 2 TYPE Weiland
 2 DATE 11.02.1657
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Weiland
+2 DATE 27.11.1660
+2 PLAC Limbach
 1 FAMC @F528@
 1 FAMS @F784@
 0 @I1456@ INDI
@@ -31619,6 +31685,12 @@
 2 GIVN Margaretha
 2 SURN Rülcker
 1 SEX F
+1 CHR
+2 DATE ca. 1582
+2 PLAC 
+1 DEAT
+2 DATE 28.11.1663
+2 PLAC Birkenhain
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 16.10.1600
@@ -31812,8 +31884,8 @@
 2 PLAC Döbeln
 1 FAMS @F558@
 0 @I1485@ INDI
-1 NAME Katharina /Philip/
-2 GIVN Katharina
+1 NAME Catharina /Philip/
+2 GIVN Catharina
 2 SURN Philip
 1 SEX F
 1 FAMS @F560@
@@ -31834,8 +31906,8 @@
 1 FAMC @F561@
 1 FAMS @F562@
 0 @I1488@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 DEAT
@@ -32327,8 +32399,8 @@
 1 FAMS @F581@
 1 FAMS @F897@
 0 @I1517@ INDI
-1 NAME Katharina /Faust/
-2 GIVN Katharina
+1 NAME Catharina /Faust/
+2 GIVN Catharina
 2 SURN Faust
 1 SEX F
 1 DEAT
@@ -32510,6 +32582,10 @@
 1 EVEN 
 2 TYPE Weiland
 2 DATE 31.01.1654
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Weiland
+2 DATE 28.11.1663
 2 PLAC Birkenhain
 1 FAMS @F609@
 0 @I1524@ INDI
@@ -33587,8 +33663,8 @@
 2 PLAC Meißen
 1 FAMS @F596@
 0 @I1565@ INDI
-1 NAME Katharina /Schüttig/
-2 GIVN Katharina
+1 NAME Catharina /Schüttig/
+2 GIVN Catharina
 2 SURN Schüttig
 1 SEX F
 1 FAMC @F596@
@@ -34479,6 +34555,10 @@
 2 TYPE Weiland
 2 DATE 20.02.1655
 2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Weiland
+2 DATE 10.01.1662
+2 PLAC Sora
 1 FAMS @F610@
 1 FAMS @F713@
 0 @I1616@ INDI
@@ -34705,6 +34785,10 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 04.06.1658
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 18.02.1662
 2 PLAC Limbach
 1 FAMC @F513@
 1 FAMS @F935@
@@ -35022,6 +35106,12 @@
 2 GIVN Martha
 2 SURN 
 1 SEX F
+1 CHR
+2 DATE ca. 1582
+2 PLAC 
+1 DEAT
+2 DATE 12.03.1662
+2 PLAC Birkenhain
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 31.01.1608
@@ -35151,6 +35241,9 @@
 1 CHR
 2 DATE 15.03.1608
 2 PLAC Birkenhain
+1 DEAT
+2 DATE 09.04.1661
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 26.03.1628
@@ -35183,6 +35276,14 @@
 2 TYPE Erwähnung
 2 DATE 27.05.1654
 2 PLAC 
+1 EVEN Junior
+2 TYPE Weiland
+2 DATE 21.10.1664
+2 PLAC Sora
+1 EVEN der Jüngere
+2 TYPE Weiland
+2 DATE 02.03.1664
+2 PLAC Sora
 1 FAMC @F611@
 1 FAMS @F966@
 0 @I1648@ INDI
@@ -35538,8 +35639,8 @@
 1 FAMS @F703@
 1 FAMS @F762@
 0 @I1665@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 DEAT
@@ -35776,6 +35877,10 @@
 2 TYPE Zeuge
 2 DATE 15.03.1656
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 17.10.1663
+2 PLAC Lampersdorf
 1 FAMC @F541@
 1 FAMS @F944@
 0 @I1675@ INDI
@@ -35888,8 +35993,8 @@
 1 FAMC @F440@
 1 FAMS @F769@
 0 @I1683@ INDI
-1 NAME Katharina /Heimberg/
-2 GIVN Katharina
+1 NAME Catharina /Heimberg/
+2 GIVN Catharina
 2 SURN Heimberg
 1 SEX F
 1 CHR
@@ -36142,8 +36247,8 @@
 2 PLAC Kopach
 1 FAMS @F645@
 0 @I1708@ INDI
-1 NAME Katharina /Hermsdorf/
-2 GIVN Katharina
+1 NAME Catharina /Hermsdorf/
+2 GIVN Catharina
 2 SURN Hermsdorf
 1 SEX F
 1 DEAT
@@ -36379,8 +36484,8 @@
 2 PLAC Lotzen
 1 FAMC @F608@
 0 @I1732@ INDI
-1 NAME Katharina /Naumann/
-2 GIVN Katharina
+1 NAME Catharina /Naumann/
+2 GIVN Catharina
 2 SURN Naumann
 1 SEX F
 1 DEAT
@@ -37279,6 +37384,12 @@
 2 GIVN Maria
 2 SURN 
 1 SEX F
+1 CHR
+2 DATE ca. 1590
+2 PLAC 
+1 DEAT
+2 DATE 28.02.1664
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 02.05.1611
@@ -37378,6 +37489,22 @@
 1 EVEN 
 2 TYPE Weiland
 2 DATE 23.03.1658
+2 PLAC Sora
+1 EVEN 
+2 TYPE Weiland
+2 DATE 18.06.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Weiland
+2 DATE 29.10.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 28.05.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Weiland
+2 DATE 18.02.1663
 2 PLAC Sora
 1 FAMC @F580@
 1 FAMS @F946@
@@ -37761,6 +37888,22 @@
 2 TYPE Zeuge
 2 DATE 09.05.1658
 2 PLAC Limbach
+1 EVEN Richter und Schencker
+2 TYPE Beruf
+2 DATE 28.01.1661
+2 PLAC Limbach
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 20.07.1661
+2 PLAC Limbach
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 30.07.1661
+2 PLAC Limbach
+1 EVEN Richter und Schencker
+2 TYPE Beruf
+2 DATE 23.03.1664
+2 PLAC Limbach
 1 FAMC @F465@
 1 FAMS @F1006@
 0 @I1804@ INDI
@@ -37985,6 +38128,12 @@
 2 GIVN Hans
 2 SURN Steude
 1 SEX M
+1 CHR
+2 DATE ca. 1586
+2 PLAC 
+1 DEAT
+2 DATE 11.03.1660
+2 PLAC Lampersdorf
 1 EVEN Richter
 2 TYPE Beruf
 2 DATE 19.03.1627
@@ -38021,6 +38170,14 @@
 2 TYPE Erwähnung
 2 DATE 13.05.1650
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Weiland
+2 DATE 03.11.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Weiland
+2 DATE 06.09.1663
+2 PLAC 
 1 FAMC @F687@
 1 FAMS @F688@
 1 FAMS @F965@
@@ -38143,6 +38300,18 @@
 1 EVEN Gartner
 2 TYPE Zeuge
 2 DATE 24.05.1658
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 03.04.1662
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 28.05.1662
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 07.11.1664
 2 PLAC Birkenhain
 1 FAMC @F624@
 1 FAMS @F1016@
@@ -38319,6 +38488,14 @@
 2 TYPE Beruf
 2 DATE 16.11.1658
 2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 10.01.1662
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 08.04.1663
+2 PLAC Birkenhain
 1 FAMC @F611@
 1 FAMS @F1065@
 1 FAMS @F1094@
@@ -38332,8 +38509,8 @@
 2 PLAC Limbach
 1 FAMC @F682@
 0 @I1843@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 EVEN 
@@ -38524,6 +38701,9 @@
 1 CHR
 2 DATE 14.02.1613
 2 PLAC Lotzen
+1 DEAT
+2 DATE 04.03.1663
+2 PLAC Birkenhain
 1 EVEN junger Gesell
 2 TYPE Zeuge
 2 DATE 23.05.1650
@@ -38669,6 +38849,22 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 30.08.1654
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 26.01.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 06.02.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.08.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.02.1664
 2 PLAC Sora
 1 FAMC @F513@
 1 FAMS @F975@
@@ -39322,6 +39518,9 @@
 1 CHR
 2 DATE 21.10.1614
 2 PLAC Sora
+1 DEAT
+2 DATE 02.03.1664
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 10.02.1631
@@ -39440,6 +39639,12 @@
 2 GIVN Martha
 2 SURN Frietzsch
 1 SEX F
+1 CHR
+2 DATE ca. 1594
+2 PLAC 
+1 DEAT
+2 DATE 10.01.1662
+2 PLAC Sora
 1 FAMC @F296@
 1 FAMS @F713@
 0 @I1907@ INDI
@@ -39789,6 +39994,22 @@
 2 TYPE Zeuge
 2 DATE 12.12.1659
 2 PLAC Sora
+1 EVEN Gartner
+2 TYPE Beruf
+2 DATE 13.01.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 31.12.1661
+2 PLAC Sora
+1 EVEN Kirchvater
+2 TYPE Zeuge
+2 DATE 12.02.1662
+2 PLAC Sora
+1 EVEN Gartner und Kirchvater
+2 TYPE Beruf
+2 DATE 08.04.1663
+2 PLAC Sora
 1 FAMC @F486@
 1 FAMS @F945@
 1 FAMS @F1095@
@@ -40112,6 +40333,14 @@
 2 TYPE Erwähnung
 2 DATE 18.01.1659
 2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 19.10.1661
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 14.12.1661
+2 PLAC Birkenhain
 1 FAMC @F500@
 1 FAMS @F798@
 0 @I1942@ INDI
@@ -40133,6 +40362,12 @@
 2 GIVN Georg
 2 SURN Philip
 1 SEX M
+1 CHR
+2 DATE ca. 1586
+2 PLAC 
+1 DEAT
+2 DATE 29.10.1660
+2 PLAC Limbach
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 02.02.1616
@@ -40276,6 +40511,10 @@
 1 EVEN Gärtner
 2 TYPE Beruf
 2 DATE 22.03.1659
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Weiland
+2 DATE 28.01.1661
 2 PLAC Limbach
 1 FAMC @F518@
 1 FAMS @F726@
@@ -40454,11 +40693,15 @@
 2 TYPE Weiland
 2 DATE 30.05.1644
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Weiland
+2 DATE 27.07.1664
+2 PLAC Limbach
 1 FAMC @F676@
 1 FAMS @F937@
 0 @I1946@ INDI
-1 NAME Katharina /Müller/
-2 GIVN Katharina
+1 NAME Catharina /Müller/
+2 GIVN Catharina
 2 SURN Müller
 1 SEX F
 1 CHR
@@ -40719,6 +40962,18 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 20.12.1657
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 13.11.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 14.01.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.01.1663
 2 PLAC Lotzen
 1 FAMC @F409@
 1 FAMS @F820@
@@ -41021,6 +41276,18 @@
 2 TYPE Erwähnung
 2 DATE 09.05.1658
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 24.01.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.04.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.11.1663
+2 PLAC Sora
 1 FAMC @F319@
 1 FAMS @F792@
 0 @I1963@ INDI
@@ -41129,6 +41396,14 @@
 1 EVEN Gärtner
 2 TYPE Weiland
 2 DATE 10.02.1656
+2 PLAC Limbach
+1 EVEN 15J 24W
+2 TYPE Weiland
+2 DATE 06.09.1661
+2 PLAC Limbach
+1 EVEN Gärtner
+2 TYPE Weiland
+2 DATE 02.12.1663
 2 PLAC Limbach
 1 FAMC @F518@
 1 FAMS @F840@
@@ -41330,8 +41605,13 @@
 2 TYPE Zeuge
 2 DATE 13.05.1650
 2 PLAC Lampersdorf
+1 EVEN Wittwe
+2 TYPE Zeuge
+2 DATE 06.09.1663
+2 PLAC Lampersdorf
 1 FAMC @F631@
 1 FAMS @F965@
+1 FAMS @F1126@
 0 @I1974@ INDI
 1 NAME Gregor /Rudolff/
 2 GIVN Gregor
@@ -41554,8 +41834,29 @@
 2 TYPE Erwähnung
 2 DATE 23.01.1655
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.10.1661
+2 PLAC Lampersdorf
+1 EVEN Wittwer Bauer
+2 TYPE Erwähnung
+2 DATE 03.11.1663
+2 PLAC Lampersdorf
+1 EVEN Wittwer
+2 TYPE Zeuge
+2 DATE 06.09.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.11.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 02.01.1663
+2 PLAC Lampersdorf
 1 FAMC @F591@
 1 FAMS @F962@
+1 FAMS @F1126@
 0 @I1981@ INDI
 1 NAME Michael /Pfützner/
 2 GIVN Michael
@@ -41611,6 +41912,9 @@
 1 SEX M
 1 CHR
 2 DATE 20.09.1617
+2 PLAC Sora
+1 DEAT
+2 DATE 09.03.1662
 2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
@@ -41679,8 +41983,8 @@
 2 PLAC Wilsdruff
 1 FAMS @F734@
 0 @I1991@ INDI
-1 NAME Katharina /Müller/
-2 GIVN Katharina
+1 NAME Catharina /Müller/
+2 GIVN Catharina
 2 SURN Müller
 1 SEX F
 1 FAMC @F734@
@@ -41728,6 +42032,12 @@
 2 GIVN Christina
 2 SURN Funcke
 1 SEX F
+1 CHR
+2 DATE ca. 1596
+2 PLAC 
+1 DEAT
+2 DATE 19.09.1661
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 15.05.1618
@@ -42192,6 +42502,14 @@
 2 TYPE Erwähnung
 2 DATE 07.12.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 18.02.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.10.1663
+2 PLAC Sora
 1 FAMC @F713@
 1 FAMS @F1013@
 0 @I2017@ INDI
@@ -42275,6 +42593,10 @@
 2 TYPE Zeuge
 2 DATE 28.09.1659
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.04.1662
+2 PLAC Limbach
 1 FAMC @F611@
 1 FAMS @F980@
 0 @I2020@ INDI
@@ -42318,8 +42640,8 @@
 2 PLAC Limbach
 1 FAMC @F731@
 0 @I2024@ INDI
-1 NAME Katharina /Kuntz/
-2 GIVN Katharina
+1 NAME Catharina /Kuntz/
+2 GIVN Catharina
 2 SURN Kuntz
 1 SEX F
 1 EVEN 
@@ -42392,6 +42714,14 @@
 2 TYPE Erwähnung
 2 DATE 26.07.1659
 2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.10.1661
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.01.1663
+2 PLAC Lotzen
 1 FAMS @F748@
 0 @I2026@ INDI
 1 NAME Jacob /Dietrich/
@@ -42438,6 +42768,14 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 15.04.1655
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.05.1661
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.06.1663
 2 PLAC Birkenhain
 1 FAMC @F609@
 1 FAMS @F1026@
@@ -42500,6 +42838,10 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 18.01.1659
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.06.1661
 2 PLAC Sora
 1 FAMC @F738@
 1 FAMS @F946@
@@ -42657,6 +42999,10 @@
 1 EVEN Gärtner
 2 TYPE Weiland
 2 DATE 20.02.1655
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Weiland
+2 DATE 22.11.1664
 2 PLAC Sora
 1 FAMC @F394@
 1 FAMS @F757@
@@ -42834,6 +43180,18 @@
 2 TYPE Erwähnung
 2 DATE 30.09.1659
 2 PLAC Lampersdorf
+1 EVEN Schenck
+2 TYPE Beruf
+2 DATE 22.02.1661
+2 PLAC Lampersdorf
+1 EVEN Schenck
+2 TYPE Zeuge
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
+1 EVEN Schenck
+2 TYPE Zeuge
+2 DATE 19.10.1661
+2 PLAC Lampersdorf
 1 FAMC @F631@
 1 FAMS @F983@
 0 @I2047@ INDI
@@ -42988,6 +43346,22 @@
 2 TYPE Zeuge
 2 DATE 18.08.1654
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 26.01.1660
+2 PLAC Sora
+1 EVEN Bauer
+2 TYPE Zeuge
+2 DATE 10.01.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 24.01.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.02.1664
+2 PLAC Sora
 1 FAMC @F743@
 1 FAMS @F1007@
 0 @I2051@ INDI
@@ -43082,6 +43456,12 @@
 2 GIVN Georg
 2 SURN Rülcker
 1 SEX M
+1 CHR
+2 DATE ca. 1588
+2 PLAC 
+1 DEAT
+2 DATE 27.05.1661
+2 PLAC Birkenhain
 1 EVEN Diener
 2 TYPE Zeuge
 2 DATE 17.07.1619
@@ -43184,6 +43564,18 @@
 2 TYPE Beruf
 2 DATE 18.01.1659
 2 PLAC Limbach
+1 EVEN Kirchvater
+2 TYPE Zeuge
+2 DATE 07.11.1660
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 11.06.1661
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.02.1664
+2 PLAC Limbach
 1 FAMC @F676@
 1 FAMS @F992@
 0 @I2063@ INDI
@@ -43230,9 +43622,26 @@
 2 TYPE Zeuge
 2 DATE 03.07.1656
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 11.01.1660
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 26.01.1660
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 08.03.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.11.1663
+2 PLAC 
 1 FAMC @F714@
 1 FAMS @F976@
 1 FAMS @F997@
+1 FAMS @F1110@
 0 @I2064@ INDI
 1 NAME Barbara /Löwe/
 2 GIVN Barbara
@@ -43511,6 +43920,10 @@
 2 TYPE Zeuge
 2 DATE 21.02.1649
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 17.10.1663
+2 PLAC Lampersdorf
 1 FAMC @F486@
 1 FAMS @F944@
 0 @I2083@ INDI
@@ -43733,8 +44146,8 @@
 2 PLAC Lampersdorf
 1 FAMS @F766@
 0 @I2098@ INDI
-1 NAME Katharina //
-2 GIVN Katharina
+1 NAME Catharina //
+2 GIVN Catharina
 2 SURN 
 1 SEX F
 1 EVEN 
@@ -43998,6 +44411,26 @@
 2 TYPE Erwähnung
 2 DATE 12.12.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 13.01.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 30.09.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 29.10.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 08.04.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 17.10.1663
+2 PLAC Sora
 1 FAMC @F693@
 1 FAMS @F1076@
 0 @I2114@ INDI
@@ -44044,6 +44477,18 @@
 2 TYPE Beruf
 2 DATE 19.03.1658
 2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Zeuge
+2 DATE 26.01.1660
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 10.01.1661
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 24.11.1662
+2 PLAC Sora
 1 FAMC @F713@
 1 FAMS @F1011@
 0 @I2115@ INDI
@@ -44054,7 +44499,20 @@
 1 CHR
 2 DATE 21.02.1621
 2 PLAC Birkenhain
+1 EVEN Hoffemeister
+2 TYPE Beruf
+2 DATE 19.07.1661
+2 PLAC Limbach
+1 EVEN Hoffemeister
+2 TYPE Beruf
+2 DATE 07.08.1661
+2 PLAC Limbach
+1 EVEN von
+2 TYPE Erwähnung
+2 DATE 07.08.1661
+2 PLAC Weitzschen
 1 FAMC @F735@
+1 FAMS @F1118@
 0 @I2116@ INDI
 1 NAME Margaretha /Grellman/
 2 GIVN Margaretha
@@ -44362,6 +44820,26 @@
 2 TYPE Beruf
 2 DATE 07.12.1659
 2 PLAC Sora
+1 EVEN Schuster und Gärtner
+2 TYPE Zeuge
+2 DATE 22.05.1660
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 29.10.1661
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Zeuge
+2 DATE 04.08.1663
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 08.06.1663
+2 PLAC Sora
+1 EVEN Schuster und Gärtner
+2 TYPE Zeuge
+2 DATE 26.05.1664
+2 PLAC Sora
 1 FAMC @F743@
 1 FAMS @F1047@
 0 @I2129@ INDI
@@ -44567,7 +45045,28 @@
 2 TYPE Zeuge
 2 DATE 22.08.1656
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 10.01.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.04.1662
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.08.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.08.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 17.10.1663
+2 PLAC Lampersdorf
 1 FAMC @F600@
+1 FAMS @F1114@
 0 @I2142@ INDI
 1 NAME Margaretha /Winckler/
 2 GIVN Margaretha
@@ -44696,6 +45195,12 @@
 2 GIVN Maria
 2 SURN Rudolff
 1 SEX F
+1 CHR
+2 DATE ca. 1605
+2 PLAC 
+1 DEAT
+2 DATE 20.12.1664
+2 PLAC Limbach
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 05.07.1622
@@ -44974,9 +45479,9 @@
 2 DATE 24.12.1622
 2 PLAC Sora
 0 @I2172@ INDI
-1 NAME Caspar /Hönich/
+1 NAME Caspar /Hönisch/
 2 GIVN Caspar
-2 SURN Hönich
+2 SURN Hönisch
 1 SEX M
 1 EVEN 
 2 TYPE Erwähnung
@@ -44988,9 +45493,9 @@
 2 PLAC Naustadt
 1 FAMS @F788@
 0 @I2173@ INDI
-1 NAME Anna /Hönich/
+1 NAME Anna /Hönisch/
 2 GIVN Anna
-2 SURN Hönich
+2 SURN Hönisch
 1 SEX F
 1 FAMC @F788@
 1 FAMS @F789@
@@ -45476,6 +45981,14 @@
 2 TYPE Erwähnung
 2 DATE 22.12.1657
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.10.1661
+2 PLAC Lampersdorf
 1 FAMC @F396@
 1 FAMS @F921@
 0 @I2191@ INDI
@@ -45800,11 +46313,27 @@
 2 TYPE Erwähnung
 2 DATE 07.12.1659
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.10.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 19.04.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 12.02.1662
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 03.10.1664
+2 PLAC Lampersdorf
 1 FAMC @F519@
 1 FAMS @F813@
 0 @I2195@ INDI
-1 NAME Katharina /Dietz/
-2 GIVN Katharina
+1 NAME Catharina /Dietz/
+2 GIVN Catharina
 2 SURN Dietz
 1 SEX F
 1 CHR
@@ -45922,9 +46451,9 @@
 1 FAMC @F800@
 1 FAMS @F801@
 0 @I2204@ INDI
-1 NAME Katharina /Hönich/
-2 GIVN Katharina
-2 SURN Hönich
+1 NAME Catharina /Hönisch/
+2 GIVN Catharina
+2 SURN Hönisch
 1 SEX F
 1 FAMC @F788@
 1 FAMS @F801@
@@ -45945,6 +46474,7 @@
 2 DATE 24.08.1647
 2 PLAC 
 1 FAMC @F784@
+1 FAMS @F1104@
 0 @I2206@ INDI
 1 NAME Martha /Dietz/
 2 GIVN Martha
@@ -46013,6 +46543,12 @@
 2 GIVN Maria
 2 SURN Mercker
 1 SEX F
+1 CHR
+2 DATE ca. 1603
+2 PLAC 
+1 DEAT
+2 DATE 07.10.1660
+2 PLAC Limbach
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 06.02.1624
@@ -46158,6 +46694,12 @@
 2 GIVN Anna
 2 SURN Frietzsch
 1 SEX F
+1 CHR
+2 DATE ca. 1598
+2 PLAC 
+1 DEAT
+2 DATE 08.10.1660
+2 PLAC 
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 20.06.1624
@@ -46254,6 +46796,14 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 24.05.1658
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 29.01.1660
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.05.1660
 2 PLAC Birkenhain
 1 FAMC @F739@
 1 FAMS @F1009@
@@ -46619,6 +47169,10 @@
 2 TYPE Zeuge
 2 DATE 19.10.1651
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
 1 FAMC @F686@
 1 FAMS @F1039@
 0 @I2253@ INDI
@@ -46751,6 +47305,10 @@
 2 TYPE Erwähnung
 2 DATE 19.08.1659
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Weiland
+2 DATE 08.10.1660
+2 PLAC 
 1 FAMS @F814@
 0 @I2259@ INDI
 1 NAME Valentin /Schweger/
@@ -46803,8 +47361,8 @@
 2 PLAC Constappel
 1 FAMS @F818@
 0 @I2264@ INDI
-1 NAME Katharina /Just/
-2 GIVN Katharina
+1 NAME Catharina /Just/
+2 GIVN Catharina
 2 SURN Just
 1 SEX F
 1 DEAT
@@ -46893,6 +47451,7 @@
 2 PLAC Birkenhain
 1 FAMC @F714@
 1 FAMS @F1070@
+1 FAMS @F1122@
 0 @I2268@ INDI
 1 NAME Martha /Leuderitz/
 2 GIVN Martha
@@ -47033,7 +47592,12 @@
 2 TYPE Zeuge
 2 DATE 12.12.1659
 2 PLAC Sora
+1 EVEN der Jüngere
+2 TYPE Erwähnung
+2 DATE 22.02.1664
+2 PLAC Sora
 1 FAMC @F738@
+1 FAMS @F1128@
 0 @I2279@ INDI
 1 NAME Margaretha /Dietz/
 2 GIVN Margaretha
@@ -47181,6 +47745,14 @@
 2 TYPE Erwähnung
 2 DATE 26.09.1658
 2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Weiland
+2 DATE 07.10.1660
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Weiland
+2 DATE 08.07.1661
+2 PLAC Limbach
 1 FAMC @F824@
 1 FAMS @F825@
 0 @I2291@ INDI
@@ -47315,6 +47887,10 @@
 1 CHR
 2 DATE 11.01.1627
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1661
+2 PLAC Limbach
 1 FAMC @F784@
 0 @I2300@ INDI
 1 NAME Martin /Schubert/
@@ -47327,6 +47903,18 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 23.10.1651
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 24.01.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.04.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.11.1663
 2 PLAC Sora
 1 FAMC @F792@
 0 @I2301@ INDI
@@ -47353,6 +47941,18 @@
 1 EVEN Hoffmeister
 2 TYPE Beruf
 2 DATE 12.12.1659
+2 PLAC Sora
+1 EVEN Hoffmeister
+2 TYPE Zeuge
+2 DATE 13.01.1660
+2 PLAC Sora
+1 EVEN Hoffmeister
+2 TYPE Beruf
+2 DATE 24.01.1662
+2 PLAC Sora
+1 EVEN Hoffmeister
+2 TYPE Beruf
+2 DATE 22.02.1664
 2 PLAC Sora
 1 FAMC @F791@
 1 FAMS @F1056@
@@ -47785,8 +48385,8 @@
 2 PLAC 
 1 FAMS @F837@
 0 @I2328@ INDI
-1 NAME Katharina /Müller/
-2 GIVN Katharina
+1 NAME Catharina /Müller/
+2 GIVN Catharina
 2 SURN Müller
 1 SEX F
 1 CHR
@@ -47808,10 +48408,16 @@
 2 PLAC Mohorn
 1 FAMS @F839@
 0 @I2330@ INDI
-1 NAME Katharina /Brendel/
-2 GIVN Katharina
+1 NAME Catharina /Brendel/
+2 GIVN Catharina
 2 SURN Brendel
 1 SEX F
+1 CHR
+2 DATE ca. 1612
+2 PLAC 
+1 DEAT
+2 DATE 02.12.1663
+2 PLAC Limbach
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 15.12.1628
@@ -47923,6 +48529,9 @@
 1 CHR
 2 DATE 12.03.1628
 2 PLAC Lampersdorf
+1 DEAT
+2 DATE 26.01.1660
+2 PLAC Lampersdorf
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 03.06.1649
@@ -47964,6 +48573,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 18.01.1659
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 19.10.1661
 2 PLAC Birkenhain
 1 FAMC @F798@
 0 @I2338@ INDI
@@ -48046,6 +48659,7 @@
 2 DATE 10.06.1655
 2 PLAC Birkenhain
 1 FAMC @F714@
+1 FAMS @F1113@
 0 @I2345@ INDI
 1 NAME Barbara /Philip/
 2 GIVN Barbara
@@ -48104,9 +48718,9 @@
 2 PLAC 
 1 FAMS @F843@
 0 @I2348@ INDI
-1 NAME Anna /Cost/
+1 NAME Anna /Kost/
 2 GIVN Anna
-2 SURN Cost
+2 SURN Kost
 1 SEX F
 1 CHR
 2 DATE 28.12.1628
@@ -48219,7 +48833,20 @@
 2 TYPE Zeuge
 2 DATE 30.06.1657
 2 PLAC Lampersdorf
+1 EVEN Junior
+2 TYPE Erwähnung
+2 DATE 04.01.1663
+2 PLAC Lampersdorf
+1 EVEN der Jüngere
+2 TYPE Erwähnung
+2 DATE 17.10.1663
+2 PLAC Lampersdorf
+1 EVEN Junior
+2 TYPE Zeuge
+2 DATE 21.10.1664
+2 PLAC Lampersdorf
 1 FAMC @F813@
+1 FAMS @F1130@
 0 @I2358@ INDI
 1 NAME Hans /Rost/
 2 GIVN Hans
@@ -48385,7 +49012,12 @@
 2 TYPE Zeuge
 2 DATE 09.01.1658
 2 PLAC Sora
+1 EVEN Hoffemeister
+2 TYPE Beruf
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
 1 FAMC @F743@
+1 FAMS @F1102@
 0 @I2368@ INDI
 1 NAME Michael /Groß/
 2 GIVN Michael
@@ -48478,6 +49110,10 @@
 1 EVEN Hoffmüller
 2 TYPE Beruf
 2 DATE 28.09.1659
+2 PLAC Limbach
+1 EVEN Müller
+2 TYPE Beruf
+2 DATE 03.04.1662
 2 PLAC Limbach
 1 FAMS @F874@
 1 FAMS @F980@
@@ -48638,8 +49274,17 @@
 1 CHR
 2 DATE 19.02.1630
 2 PLAC Sora
+1 EVEN Wittwer
+2 TYPE Erwähnung
+2 DATE 04.03.1663
+2 PLAC 
+1 EVEN Gärtner auf der Kneipe
+2 TYPE Beruf
+2 DATE 04.03.1663
+2 PLAC 
 1 FAMC @F916@
 1 FAMS @F1038@
+1 FAMS @F1129@
 0 @I2386@ INDI
 1 NAME Peter /Keule/
 2 GIVN Peter
@@ -48671,6 +49316,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 18.08.1654
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 06.02.1660
 2 PLAC Sora
 1 FAMC @F802@
 1 FAMS @F1101@
@@ -48808,6 +49457,18 @@
 2 TYPE Erwähnung
 2 DATE 11.05.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 08.04.1663
+2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 22.11.1664
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 26.05.1664
+2 PLAC Sora
 1 FAMC @F496@
 1 FAMS @F922@
 0 @I2396@ INDI
@@ -48890,7 +49551,16 @@
 2 TYPE Zeuge
 2 DATE 08.02.1657
 2 PLAC Birkenhain
+1 EVEN Junior
+2 TYPE Erwähnung
+2 DATE 14.12.1661
+2 PLAC Birkenhain
+1 EVEN der Jüngere
+2 TYPE Zeuge
+2 DATE 03.04.1662
+2 PLAC Birkenhain
 1 FAMC @F777@
+1 FAMS @F1120@
 0 @I2403@ INDI
 1 NAME Hans /Rülcker/
 2 GIVN Hans
@@ -49032,6 +49702,10 @@
 1 DEAT
 2 DATE 17.07.1632
 2 PLAC Birkenhain
+1 EVEN Gärtner
+2 TYPE Weiland
+2 DATE 12.03.1662
+2 PLAC Birkenhain
 1 FAMC @F868@
 1 FAMS @F869@
 0 @I2418@ INDI
@@ -49080,6 +49754,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 12.07.1649
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 28.01.1661
 2 PLAC Limbach
 1 FAMC @F726@
 0 @I2422@ INDI
@@ -49412,6 +50090,10 @@
 1 EVEN 
 2 TYPE Weiland
 2 DATE 21.11.1656
+2 PLAC Lotzen
+1 EVEN Schuster
+2 TYPE Weiland
+2 DATE 26.02.1661
 2 PLAC Lotzen
 1 FAMC @F699@
 1 FAMS @F923@
@@ -49861,6 +50543,12 @@
 2 GIVN Georg
 2 SURN Hülling
 1 SEX M
+1 CHR
+2 DATE ca. 1603
+2 PLAC 
+1 DEAT
+2 DATE 23.10.1661
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 12.09.1632
@@ -50300,6 +50988,42 @@
 2 TYPE Beruf
 2 DATE 07.12.1659
 2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 22.05.1660
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 26.11.1661
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 10.01.1661
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 28.01.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 30.09.1661
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 17.06.1663
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 18.02.1663
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 06.09.1663
+2 PLAC Sora
+1 EVEN Richter
+2 TYPE Beruf
+2 DATE 03.10.1664
+2 PLAC Sora
 1 FAMC @F894@
 1 FAMS @F895@
 0 @I2489@ INDI
@@ -50414,6 +51138,10 @@
 2 TYPE Zeuge
 2 DATE 04.02.1655
 2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 14.12.1661
+2 PLAC Birkenhain
 1 FAMC @F798@
 0 @I2500@ INDI
 1 NAME Jacob /Rülcker/
@@ -50422,6 +51150,10 @@
 1 SEX M
 1 CHR
 2 DATE 12.05.1633
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.06.1663
 2 PLAC Birkenhain
 1 FAMC @F714@
 0 @I2501@ INDI
@@ -50444,6 +51176,10 @@
 2 TYPE Zeuge
 2 DATE 30.08.1654
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 08.04.1663
+2 PLAC Birkenhain
 1 FAMC @F802@
 1 FAMS @F1094@
 0 @I2502@ INDI
@@ -50462,6 +51198,10 @@
 1 SEX M
 1 CHR
 2 DATE 05.06.1633
+2 PLAC Limbach
+1 EVEN Knecht
+2 TYPE Zeuge
+2 DATE 03.09.1660
 2 PLAC Limbach
 1 FAMC @F825@
 0 @I2504@ INDI
@@ -50491,6 +51231,7 @@
 2 DATE 09.06.1633
 2 PLAC Sora
 1 FAMC @F757@
+1 FAMS @F1133@
 0 @I2507@ INDI
 1 NAME Barbara //
 2 GIVN Barbara
@@ -50655,6 +51396,22 @@
 2 TYPE Erwähnung
 2 DATE 27.01.1656
 2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 29.01.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Beruf
+2 DATE 28.05.1662
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.03.1663
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 21.10.1664
+2 PLAC Lotzen
 1 FAMC @F889@
 1 FAMS @F909@
 0 @I2521@ INDI
@@ -50717,6 +51474,10 @@
 2 TYPE Weiland
 2 DATE 11.02.1657
 2 PLAC Sora
+1 EVEN Gärtner
+2 TYPE Weiland
+2 DATE 26.02.1661
+2 PLAC Sora
 1 FAMC @F764@
 1 FAMS @F910@
 0 @I2524@ INDI
@@ -50741,6 +51502,12 @@
 2 GIVN Barbara
 2 SURN Schubert
 1 SEX F
+1 CHR
+2 DATE ca. 1593
+2 PLAC 
+1 DEAT
+2 DATE 22.01.1663
+2 PLAC Lampersdorf
 1 FAMC @F331@
 1 FAMS @F913@
 0 @I2527@ INDI
@@ -50952,10 +51719,14 @@
 1 CHR
 2 DATE 04.09.1634
 2 PLAC Limbach
-1 EVEN Hoffetrepher
+1 EVEN Hoffetrescher
 2 TYPE Zeuge
 2 DATE 26.09.1658
 2 PLAC 
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 24.08.1662
+2 PLAC Limbach
 1 FAMC @F814@
 0 @I2540@ INDI
 1 NAME Michael /Schultz/
@@ -51150,6 +51921,14 @@
 2 TYPE Zeuge
 2 DATE 08.07.1655
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.02.1662
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.09.1663
+2 PLAC Sora
 1 FAMC @F743@
 0 @I2554@ INDI
 1 NAME Georg /Götze/
@@ -51197,7 +51976,16 @@
 2 TYPE Zeuge
 2 DATE 17.12.1657
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.08.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.11.1663
+2 PLAC Lampersdorf
 1 FAMC @F813@
+1 FAMS @F1114@
 0 @I2558@ INDI
 1 NAME Jacob /Philip/
 2 GIVN Jacob
@@ -51247,6 +52035,10 @@
 1 SEX M
 1 CHR
 2 DATE 25.06.1635
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 14.12.1661
 2 PLAC Birkenhain
 1 FAMC @F714@
 0 @I2562@ INDI
@@ -51547,7 +52339,12 @@
 2 TYPE Zeuge
 2 DATE 20.08.1657
 2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 14.01.1660
+2 PLAC Lotzen
 1 FAMC @F820@
+1 FAMS @F1102@
 0 @I2584@ INDI
 1 NAME Barbara //
 2 GIVN Barbara
@@ -51592,6 +52389,14 @@
 2 TYPE Zeuge
 2 DATE 22.12.1657
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.10.1661
+2 PLAC Lampersdorf
 1 FAMC @F921@
 0 @I2587@ INDI
 1 NAME Andreas /Küne/
@@ -51635,7 +52440,16 @@
 2 TYPE Zeuge
 2 DATE 30.09.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.05.1660
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 28.01.1661
+2 PLAC Sora
 1 FAMC @F895@
+1 FAMS @F1116@
 0 @I2591@ INDI
 1 NAME Barbara /Birckner/
 2 GIVN Barbara
@@ -52021,7 +52835,16 @@
 2 TYPE Zeuge
 2 DATE 28.09.1659
 2 PLAC Limbach
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 27.07.1664
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 07.11.1664
+2 PLAC Limbach
 1 FAMC @F726@
+1 FAMS @F1123@
 0 @I2625@ INDI
 1 NAME Martha /Philip/
 2 GIVN Martha
@@ -52217,7 +53040,16 @@
 2 TYPE Zeuge
 2 DATE 26.09.1658
 2 PLAC 
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 16.01.1662
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 08.08.1663
+2 PLAC Lotzen
 1 FAMC @F910@
+1 FAMS @F1111@
 0 @I2637@ INDI
 1 NAME Christoph /Philip/
 2 GIVN Christoph
@@ -52243,6 +53075,7 @@
 2 DATE 21.11.1656
 2 PLAC Lotzen
 1 FAMC @F923@
+1 FAMS @F1111@
 0 @I2639@ INDI
 1 NAME Christian /Birckner/
 2 GIVN Christian
@@ -52411,6 +53244,22 @@
 2 TYPE Beruf
 2 DATE 02.07.1659
 2 PLAC Limbach
+1 EVEN Waffenmeister
+2 TYPE Beruf
+2 DATE 17.08.1660
+2 PLAC Limbach
+1 EVEN Schaffmeister
+2 TYPE Beruf
+2 DATE 20.09.1661
+2 PLAC Limbach
+1 EVEN Schaffmeister
+2 TYPE Beruf
+2 DATE 09.06.1664
+2 PLAC Limbach
+1 EVEN Schaffmeister
+2 TYPE Zeuge
+2 DATE 23.03.1664
+2 PLAC Limbach
 1 FAMC @F917@
 1 FAMS @F964@
 0 @I2649@ INDI
@@ -52438,6 +53287,14 @@
 2 TYPE Zeuge
 2 DATE 07.12.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.02.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 06.09.1663
+2 PLAC Sora
 1 FAMC @F895@
 0 @I2651@ INDI
 1 NAME Peter /Fichtner/
@@ -52453,6 +53310,12 @@
 2 GIVN Barbara
 2 SURN Preuse
 1 SEX F
+1 CHR
+2 DATE ca. 1619
+2 PLAC 
+1 DEAT
+2 DATE 12.02.1664
+2 PLAC Sora
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 24.11.1638
@@ -52473,6 +53336,10 @@
 2 TYPE Zeuge
 2 DATE 18.01.1654
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 26.01.1660
+2 PLAC Sora
 1 FAMC @F885@
 1 FAMS @F1007@
 0 @I2653@ INDI
@@ -52482,6 +53349,9 @@
 1 SEX M
 1 CHR
 2 DATE 25.11.1638
+2 PLAC Limbach
+1 DEAT
+2 DATE 08.07.1661
 2 PLAC Limbach
 1 FAMC @F825@
 0 @I2655@ INDI
@@ -52584,6 +53454,10 @@
 1 CHR
 2 DATE 01.12.1638
 2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 27.07.1664
+2 PLAC Limbach
 1 FAMC @F937@
 0 @I2658@ INDI
 1 NAME Hans /Spießer/
@@ -52678,8 +53552,8 @@
 2 PLAC 
 1 FAMC @F900@
 0 @I2664@ INDI
-1 NAME Katharina /Schüttig/
-2 GIVN Katharina
+1 NAME Catharina /Schüttig/
+2 GIVN Catharina
 2 SURN Schüttig
 1 SEX F
 1 CHR
@@ -52688,6 +53562,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 04.06.1658
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.02.1662
 2 PLAC Limbach
 1 FAMC @F935@
 0 @I2665@ INDI
@@ -52758,6 +53636,18 @@
 1 EVEN 
 2 TYPE Erwähnung
 2 DATE 21.01.1657
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.02.1661
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 24.02.1664
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 20.12.1664
 2 PLAC Limbach
 1 FAMC @F956@
 1 FAMS @F957@
@@ -52859,7 +53749,16 @@
 2 TYPE Zeuge
 2 DATE 11.05.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 08.04.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 26.05.1664
+2 PLAC Sora
 1 FAMC @F922@
+1 FAMS @F1133@
 0 @I2675@ INDI
 1 NAME Maria /Grellman/
 2 GIVN Maria
@@ -52871,6 +53770,14 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 09.01.1658
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 29.10.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.02.1663
 2 PLAC Sora
 1 FAMC @F946@
 0 @I2676@ INDI
@@ -52925,6 +53832,7 @@
 2 DATE 21.01.1657
 2 PLAC Limbach
 1 FAMC @F957@
+1 FAMS @F1132@
 0 @I2681@ INDI
 1 NAME Michael /Ranfft/
 2 GIVN Michael
@@ -53049,6 +53957,7 @@
 2 DATE 24.02.1641
 2 PLAC Lotzen
 1 FAMC @F909@
+1 FAMS @F1129@
 0 @I2691@ INDI
 1 NAME Jacob /Dietz/
 2 GIVN Jacob
@@ -53059,10 +53968,16 @@
 2 PLAC Lampersdorf
 1 FAMC @F921@
 0 @I2692@ INDI
-1 NAME Martha //
-2 GIVN Martha
+1 NAME Margaretha //
+2 GIVN Margaretha
 2 SURN 
 1 SEX F
+1 CHR
+2 DATE ca. 1618
+2 PLAC 
+1 DEAT
+2 DATE 02.01.1663
+2 PLAC Lampersdorf
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 27.02.1641
@@ -53162,6 +54077,10 @@
 2 TYPE Zeuge
 2 DATE 18.01.1654
 2 PLAC 
+1 EVEN auf der Kneippe
+2 TYPE Zeuge
+2 DATE 26.01.1660
+2 PLAC 
 1 FAMC @F971@
 1 FAMS @F972@
 0 @I2700@ INDI
@@ -53218,6 +54137,10 @@
 1 SEX F
 1 CHR
 2 DATE 04.02.1642
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 31.12.1661
 2 PLAC Sora
 1 FAMC @F945@
 0 @I2703@ INDI
@@ -53311,6 +54234,10 @@
 1 SEX M
 1 CHR
 2 DATE 07.10.1642
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 21.10.1664
 2 PLAC Sora
 1 FAMC @F966@
 0 @I2713@ INDI
@@ -53460,6 +54387,14 @@
 2 TYPE Zeuge
 2 DATE 26.07.1659
 2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.10.1661
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.01.1663
+2 PLAC Lotzen
 1 FAMC @F748@
 0 @I2726@ INDI
 1 NAME Peter /Götze/
@@ -53486,6 +54421,14 @@
 1 SEX F
 1 CHR
 2 DATE 18.10.1643
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 10.01.1661
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.10.1664
 2 PLAC Sora
 1 FAMC @F895@
 0 @I2729@ INDI
@@ -53615,6 +54558,12 @@
 2 GIVN Daniel
 2 SURN Mann
 1 SEX M
+1 CHR
+2 DATE ca. 1609
+2 PLAC 
+1 DEAT
+2 DATE 23.02.1663
+2 PLAC Limbach
 1 EVEN Schuldiener
 2 TYPE Beruf
 2 DATE 26.04.1644
@@ -53662,6 +54611,10 @@
 1 EVEN Schulmeister
 2 TYPE Beruf
 2 DATE 04.05.1658
+2 PLAC Limbach
+1 EVEN Schulmeister
+2 TYPE Beruf
+2 DATE 01.09.1660
 2 PLAC Limbach
 1 FAMS @F987@
 0 @I2737@ INDI
@@ -53726,6 +54679,14 @@
 1 CHR
 2 DATE 18.06.1644
 2 PLAC 
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.08.1663
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1664
+2 PLAC Sora
 1 FAMC @F975@
 0 @I2743@ INDI
 1 NAME Matthes /Schmidt/
@@ -53791,6 +54752,18 @@
 1 SEX F
 1 CHR
 2 DATE 22.07.1644
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 29.01.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 28.05.1662
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 21.10.1664
 2 PLAC Lotzen
 1 FAMC @F909@
 0 @I2749@ INDI
@@ -54120,6 +55093,9 @@
 1 CHR
 2 DATE 24.03.1646
 2 PLAC Limbach
+1 DEAT
+2 DATE 06.09.1661
+2 PLAC Limbach
 1 FAMC @F840@
 0 @I2782@ INDI
 1 NAME Paul /Kolbe/
@@ -54151,6 +55127,10 @@
 1 SEX F
 1 CHR
 2 DATE 01.05.1646
+2 PLAC Limbach
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1664
 2 PLAC Limbach
 1 FAMC @F992@
 0 @I2784@ INDI
@@ -54320,6 +55300,14 @@
 1 EVEN Kirchvater
 2 TYPE Beruf
 2 DATE 04.09.1659
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 29.01.1660
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.05.1660
 2 PLAC Birkenhain
 1 FAMC @F1008@
 1 FAMS @F1009@
@@ -54526,6 +55514,10 @@
 2 TYPE Zeuge
 2 DATE 07.12.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.02.1663
+2 PLAC Sora
 1 FAMC @F1012@
 1 FAMS @F1013@
 0 @I2812@ INDI
@@ -54698,6 +55690,9 @@
 1 SEX M
 1 CHR
 2 DATE 18.09.1648
+2 PLAC Lampersdorf
+1 DEAT
+2 DATE 11.01.1660
 2 PLAC Lampersdorf
 1 FAMC @F997@
 0 @I2827@ INDI
@@ -55197,6 +56192,14 @@
 2 TYPE Zeuge
 2 DATE 15.04.1655
 2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.05.1661
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.06.1663
+2 PLAC Birkenhain
 1 FAMS @F1026@
 0 @I2876@ INDI
 1 NAME Michael /Ranfft/
@@ -55517,6 +56520,14 @@
 2 TYPE Zeuge
 2 DATE 15.04.1655
 2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.04.1662
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 07.11.1664
+2 PLAC Birkenhain
 1 FAMS @F1016@
 0 @I2909@ INDI
 1 NAME Elias /Philip/
@@ -55620,6 +56631,10 @@
 2 TYPE Beruf
 2 DATE 17.12.1657
 2 PLAC 
+1 EVEN Pastor
+2 TYPE Zeuge
+2 DATE 30.09.1661
+2 PLAC Limbach
 1 FAMS @F1040@
 0 @I2917@ INDI
 1 NAME Catharina //
@@ -55744,6 +56759,9 @@
 1 BIRT
 2 DATE 18.09.1653
 2 PLAC Limbach
+1 DEAT
+2 DATE 30.07.1661
+2 PLAC Limbach
 1 FAMC @F1006@
 0 @I2928@ INDI
 1 NAME Andreas /Hoier/
@@ -55776,6 +56794,11 @@
 2 TYPE Zeuge
 2 DATE 08.02.1657
 2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 18.06.1661
+2 PLAC Lotzen
+1 FAMS @F1117@
 0 @I2931@ INDI
 1 NAME Catharina Elisabeth /Funcke/
 2 GIVN Catharina Elisabeth
@@ -56031,9 +57054,17 @@
 2 GIVN Georg
 2 SURN Frietzsch
 1 SEX M
-1 EVEN Hoffetrepher
+1 EVEN Hoffetrescher
 2 TYPE Beruf
 2 DATE 06.08.1658
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 03.09.1660
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 02.07.1661
 2 PLAC Limbach
 1 FAMC @F680@
 1 FAMS @F1060@
@@ -56121,6 +57152,22 @@
 1 EVEN Hofmeister
 2 TYPE Beruf
 2 DATE 30.09.1657
+2 PLAC Lotzen
+1 EVEN Hofmeister
+2 TYPE Zeuge
+2 DATE 14.01.1660
+2 PLAC Lotzen
+1 EVEN Hofmeister
+2 TYPE Beruf
+2 DATE 19.04.1661
+2 PLAC Lotzen
+1 EVEN Hofmeister
+2 TYPE Zeuge
+2 DATE 04.10.1661
+2 PLAC Lotzen
+1 EVEN Hofmeister
+2 TYPE Beruf
+2 DATE 18.02.1663
 2 PLAC Lotzen
 1 FAMS @F1063@
 0 @I2969@ INDI
@@ -56323,6 +57370,18 @@
 2 TYPE Beruf
 2 DATE 26.07.1659
 2 PLAC Limbach
+1 EVEN Gärtner
+2 TYPE Zeuge
+2 DATE 17.05.1660
+2 PLAC Limbach
+1 EVEN Gärtner
+2 TYPE Beruf
+2 DATE 07.11.1660
+2 PLAC Limbach
+1 EVEN Gärtner und Kirchvater
+2 TYPE Zeuge
+2 DATE 12.05.1661
+2 PLAC Limbach
 1 FAMC @F1068@
 1 FAMS @F1069@
 0 @I2988@ INDI
@@ -56337,6 +57396,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 17.03.1656
+2 PLAC Kaufbach
+1 EVEN Pferdner
+2 TYPE Weiland
+2 DATE 22.01.1662
 2 PLAC Kaufbach
 1 FAMS @F1070@
 0 @I2989@ INDI
@@ -56394,6 +57457,26 @@
 2 TYPE Beruf
 2 DATE 30.09.1659
 2 PLAC Sora
+1 EVEN Schulmeister
+2 TYPE Beruf
+2 DATE 22.02.1661
+2 PLAC Sora
+1 EVEN Schulmeister
+2 TYPE Zeuge
+2 DATE 19.04.1661
+2 PLAC Sora
+1 EVEN Schulmeister
+2 TYPE Beruf
+2 DATE 18.06.1661
+2 PLAC Sora
+1 EVEN Schulmeister
+2 TYPE Beruf
+2 DATE 30.06.1661
+2 PLAC Sora
+1 EVEN Schulmeister
+2 TYPE Beruf
+2 DATE 03.10.1664
+2 PLAC Sora
 1 FAMS @F1073@
 0 @I2991@ INDI
 1 NAME Jacob /Weber/
@@ -56409,6 +57492,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 04.05.1658
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1661
 2 PLAC Sora
 1 FAMC @F1072@
 1 FAMS @F1073@
@@ -56467,6 +57554,10 @@
 1 EVEN 
 2 TYPE Zeuge
 2 DATE 12.12.1659
+2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 13.01.1660
 2 PLAC Sora
 1 FAMS @F1076@
 0 @I2998@ INDI
@@ -56571,6 +57662,10 @@
 2 GIVN Georg
 2 SURN Frietzsch
 1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 04.08.1663
+2 PLAC Lotzen
 1 FAMS @F1078@
 0 @I3009@ INDI
 1 NAME Georg /Frietzsch/
@@ -56686,9 +57781,17 @@
 2 GIVN Martin
 2 SURN Philip
 1 SEX M
-1 EVEN Hoffetrepher
+1 EVEN Hoffetrescher
 2 TYPE Beruf
 2 DATE 08.02.1657
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 07.11.1660
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 18.02.1662
 2 PLAC Limbach
 1 FAMS @F1086@
 0 @I3021@ INDI
@@ -56906,6 +58009,14 @@
 2 GIVN Ambrosius
 2 SURN Steltzer
 1 SEX M
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 22.02.1661
+2 PLAC Limbach
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 12.03.1661
+2 PLAC Limbach
 1 FAMC @F1092@
 1 FAMS @F1093@
 0 @I3042@ INDI
@@ -57017,8 +58128,8 @@
 2 PLAC Lampersdorf
 1 FAMC @F983@
 0 @I3054@ INDI
-1 NAME Martha /Herman/
-2 GIVN Martha
+1 NAME Margaretha /Herman/
+2 GIVN Margaretha
 2 SURN Herman
 1 SEX F
 1 EVEN 
@@ -57029,7 +58140,12 @@
 2 TYPE Zeuge
 2 DATE 19.08.1659
 2 PLAC Sora
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 30.09.1661
+2 PLAC Sora
 1 FAMC @F895@
+1 FAMS @F1125@
 0 @I3055@ INDI
 1 NAME Georg /Örmer/
 2 GIVN Georg
@@ -57183,6 +58299,18 @@
 2 TYPE Zeuge
 2 DATE 07.12.1659
 2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 19.04.1661
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.02.1662
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.10.1664
+2 PLAC Lampersdorf
 1 FAMC @F813@
 0 @I3073@ INDI
 1 NAME Christoph /Philip/
@@ -57193,6 +58321,1036 @@
 2 DATE 12.12.1659
 2 PLAC Sora
 1 FAMC @F1056@
+0 @I3074@ INDI
+1 NAME Martin /Jost/
+2 GIVN Martin
+2 SURN Jost
+1 SEX M
+1 EVEN 
+2 TYPE Weiland
+2 DATE 27.11.1660
+2 PLAC Gernitz
+1 FAMS @F1103@
+0 @I3075@ INDI
+1 NAME Martin /Jost/
+2 GIVN Martin
+2 SURN Jost
+1 SEX M
+1 EVEN Hufschmied
+2 TYPE Beruf
+2 DATE 27.11.1660
+2 PLAC Tanneberg
+1 FAMC @F1103@
+1 FAMS @F1104@
+0 @I3076@ INDI
+1 NAME Johannes /Hoier/
+2 GIVN Johannes
+2 SURN Hoier
+1 SEX M
+1 BIRT
+2 DATE 13.01.1660
+2 PLAC Sora
+1 FAMC @F1095@
+0 @I3077@ INDI
+1 NAME Paul /Rülcker/
+2 GIVN Paul
+2 SURN Rülcker
+1 SEX M
+1 BIRT
+2 DATE 14.01.1660
+2 PLAC Lampersdorf
+1 DEAT
+2 DATE 08.03.1661
+2 PLAC Lampersdorf
+1 FAMC @F997@
+0 @I3078@ INDI
+1 NAME Maria /Eylig/
+2 GIVN Maria
+2 SURN Eylig
+1 SEX F
+1 BIRT
+2 DATE 24.01.1660
+2 PLAC Sora
+1 FAMC @F1058@
+0 @I3079@ INDI
+1 NAME Blasius /Wustlig/
+2 GIVN Blasius
+2 SURN Wustlig
+1 SEX M
+1 BIRT
+2 DATE 26.01.1660
+2 PLAC Sora
+1 DEAT
+2 DATE 06.02.1660
+2 PLAC Sora
+1 FAMC @F1101@
+0 @I3080@ INDI
+1 NAME Michael /Hönisch/
+2 GIVN Michael
+2 SURN Hönisch
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 29.01.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 31.12.1661
+2 PLAC Lotzen
+0 @I3081@ INDI
+1 NAME Elisabeth /Küne/
+2 GIVN Elisabeth
+2 SURN Küne
+1 SEX F
+1 BIRT
+2 DATE 29.01.1660
+2 PLAC Lotzen
+1 FAMC @F1046@
+0 @I3082@ INDI
+1 NAME Johannes /Philip/
+2 GIVN Johannes
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 17.05.1660
+2 PLAC Limbach
+1 FAMC @F1086@
+0 @I3083@ INDI
+1 NAME Michael /Götze/
+2 GIVN Michael
+2 SURN Götze
+1 SEX M
+1 EVEN Schirmeister
+2 TYPE Beruf
+2 DATE 17.05.1660
+2 PLAC Limbach
+1 FAMS @F1105@
+0 @I3084@ INDI
+1 NAME Maria /Götze/
+2 GIVN Maria
+2 SURN Götze
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 17.05.1660
+2 PLAC Limbach
+1 FAMC @F1105@
+0 @I3085@ INDI
+1 NAME Balthasar /Köler/
+2 GIVN Balthasar
+2 SURN Köler
+1 SEX M
+1 BIRT
+2 DATE 22.05.1660
+2 PLAC Birkenhain
+1 FAMC @F1094@
+0 @I3086@ INDI
+1 NAME Hans /Kost/
+2 GIVN Hans
+2 SURN Kost
+1 SEX M
+1 EVEN Hammelknecht
+2 TYPE Beruf
+2 DATE 10.06.1660
+2 PLAC Limbach
+1 FAMS @F1106@
+0 @I3087@ INDI
+1 NAME Rosina /Kost/
+2 GIVN Rosina
+2 SURN Kost
+1 SEX F
+1 BIRT
+2 DATE 10.06.1660
+2 PLAC Limbach
+1 FAMC @F1106@
+0 @I3088@ INDI
+1 NAME Jacob /Schneider/
+2 GIVN Jacob
+2 SURN Schneider
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 10.06.1660
+2 PLAC Hirschfeld
+1 EVEN Voigt
+2 TYPE Beruf
+2 DATE 10.06.1660
+2 PLAC Limbach
+1 FAMS @F1107@
+0 @I3089@ INDI
+1 NAME Christina //
+2 GIVN Christina
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 10.06.1660
+2 PLAC Limbach
+1 FAMS @F1107@
+0 @I3090@ INDI
+1 NAME Gottfried /Mann/
+2 GIVN Gottfried
+2 SURN Mann
+1 SEX M
+1 BIRT
+2 DATE 01.09.1660
+2 PLAC Limbach
+1 FAMC @F987@
+0 @I3091@ INDI
+1 NAME Michael /Frietzsch/
+2 GIVN Michael
+2 SURN Frietzsch
+1 SEX M
+1 BIRT
+2 DATE 03.09.1660
+2 PLAC Limbach
+1 DEAT
+2 DATE 02.07.1661
+2 PLAC Limbach
+1 FAMC @F1060@
+0 @I3092@ INDI
+1 NAME Michael /Kern/
+2 GIVN Michael
+2 SURN Kern
+1 SEX M
+1 EVEN Knecht
+2 TYPE Zeuge
+2 DATE 03.09.1660
+2 PLAC Limbach
+0 @I3093@ INDI
+1 NAME Regina /Dietz/
+2 GIVN Regina
+2 SURN Dietz
+1 SEX F
+1 BIRT
+2 DATE 06.09.1660
+2 PLAC Lampersdorf
+1 FAMC @F921@
+0 @I3094@ INDI
+1 NAME Jacob /Philip/
+2 GIVN Jacob
+2 SURN Philip
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 06.09.1660
+2 PLAC Lotzen
+1 EVEN Leinenweber
+2 TYPE Beruf
+2 DATE 22.02.1661
+2 PLAC Lotzen
+1 EVEN Leinenweber
+2 TYPE Zeuge
+2 DATE 29.10.1661
+2 PLAC Lotzen
+1 EVEN Leinenweber
+2 TYPE Beruf
+2 DATE 31.12.1661
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.06.1663
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 03.09.1663
+2 PLAC Lotzen
+1 FAMS @F1108@
+0 @I3095@ INDI
+1 NAME Barbara //
+2 GIVN Barbara
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 06.09.1660
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1661
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 31.12.1661
+2 PLAC Lotzen
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.06.1663
+2 PLAC Lotzen
+1 FAMS @F1108@
+0 @I3096@ INDI
+1 NAME Christina /Zost/
+2 GIVN Christina
+2 SURN Zost
+1 SEX F
+1 BIRT
+2 DATE 07.11.1660
+2 PLAC Limbach
+1 FAMC @F1069@
+0 @I3097@ INDI
+1 NAME Maria //
+2 GIVN Maria
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 07.11.1660
+2 PLAC Limbach
+1 FAMS @F1086@
+0 @I3098@ INDI
+1 NAME Georg /Kiseling/
+2 GIVN Georg
+2 SURN Kiseling
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 07.02.1661
+2 PLAC Steindorf
+1 FAMS @F1109@
+0 @I3099@ INDI
+1 NAME Martha /Kiseling/
+2 GIVN Martha
+2 SURN Kiseling
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.11.1663
+2 PLAC 
+1 FAMC @F1109@
+1 FAMS @F1110@
+0 @I3100@ INDI
+1 NAME Georg /Simon/
+2 GIVN Georg
+2 SURN Simon
+1 SEX M
+1 EVEN Schuster
+2 TYPE Weiland
+2 DATE 26.02.1661
+2 PLAC Wilsdruff
+1 FAMS @F1112@
+0 @I3101@ INDI
+1 NAME Elisabeth /Simon/
+2 GIVN Elisabeth
+2 SURN Simon
+1 SEX F
+1 FAMC @F1112@
+1 FAMS @F1113@
+0 @I3102@ INDI
+1 NAME Martin /Kirsten/
+2 GIVN Martin
+2 SURN Kirsten
+1 SEX M
+1 EVEN Gerichtsschöffe
+2 TYPE Beruf
+2 DATE 26.11.1661
+2 PLAC Seeligstadt
+1 FAMS @F1115@
+0 @I3103@ INDI
+1 NAME Maria /Kirsten/
+2 GIVN Maria
+2 SURN Kirsten
+1 SEX F
+1 FAMC @F1115@
+1 FAMS @F1116@
+0 @I3104@ INDI
+1 NAME Johannes /Hülling/
+2 GIVN Johannes
+2 SURN Hülling
+1 SEX M
+1 BIRT
+2 DATE 10.01.1661
+2 PLAC Sora
+1 FAMC @F1011@
+0 @I3105@ INDI
+1 NAME Michael /Naumann/
+2 GIVN Michael
+2 SURN Naumann
+1 SEX M
+1 BIRT
+2 DATE 28.01.1661
+2 PLAC Limbach
+1 DEAT
+2 DATE 20.07.1661
+2 PLAC Limbach
+1 FAMC @F1006@
+0 @I3106@ INDI
+1 NAME Johannes /Steltzer/
+2 GIVN Johannes
+2 SURN Steltzer
+1 SEX M
+1 BIRT
+2 DATE 22.02.1661
+2 PLAC Limbach
+1 DEAT
+2 DATE 12.03.1661
+2 PLAC Limbach
+1 FAMC @F1093@
+0 @I3107@ INDI
+1 NAME Andreas /Irmer/
+2 GIVN Andreas
+2 SURN Irmer
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 22.02.1661
+2 PLAC Grumbach
+1 EVEN Schiermeister
+2 TYPE Beruf
+2 DATE 22.02.1661
+2 PLAC Limbach
+0 @I3108@ INDI
+1 NAME Rosina /Burckhard/
+2 GIVN Rosina
+2 SURN Burckhard
+1 SEX F
+1 BIRT
+2 DATE 22.02.1661
+2 PLAC Lampersdorf
+1 FAMC @F983@
+0 @I3109@ INDI
+1 NAME Anna /Leuderitz/
+2 GIVN Anna
+2 SURN Leuderitz
+1 SEX F
+1 BIRT
+2 DATE 12.05.1661
+2 PLAC Limbach
+1 DEAT
+2 DATE 11.06.1661
+2 PLAC Limbach
+1 FAMC @F992@
+0 @I3110@ INDI
+1 NAME Margaretha /Schlicke/
+2 GIVN Margaretha
+2 SURN Schlicke
+1 SEX F
+1 BIRT
+2 DATE 19.04.1661
+2 PLAC Lotzen
+1 FAMC @F1063@
+0 @I3111@ INDI
+1 NAME Anna Maria /Frietzsch/
+2 GIVN Anna Maria
+2 SURN Frietzsch
+1 SEX F
+1 BIRT
+2 DATE 18.06.1661
+2 PLAC Sora
+1 DEAT
+2 DATE 30.06.1661
+2 PLAC Sora
+1 FAMC @F1073@
+0 @I3112@ INDI
+1 NAME Maria //
+2 GIVN Maria
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 18.06.1661
+2 PLAC Lotzen
+1 FAMS @F1117@
+0 @I3113@ INDI
+1 NAME Jacob /Philip/
+2 GIVN Jacob
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 17.07.1661
+2 PLAC Lampersdorf
+1 FAMC @F1102@
+0 @I3114@ INDI
+1 NAME Maria /Uhlman/
+2 GIVN Maria
+2 SURN Uhlman
+1 SEX F
+1 BIRT
+2 DATE 19.07.1661
+2 PLAC Limbach
+1 FAMC @F1118@
+0 @I3115@ INDI
+1 NAME Christina /Kost/
+2 GIVN Christina
+2 SURN Kost
+1 SEX F
+1 BIRT
+2 DATE 20.09.1661
+2 PLAC Limbach
+1 FAMC @F964@
+0 @I3116@ INDI
+1 NAME Christian /Ranfft/
+2 GIVN Christian
+2 SURN Ranfft
+1 SEX M
+1 BIRT
+2 DATE 30.09.1661
+2 PLAC Birkenhain
+1 FAMC @F1009@
+0 @I3117@ INDI
+1 NAME Hans /Ganßauge/
+2 GIVN Hans
+2 SURN Ganßauge
+1 SEX M
+1 EVEN Pachtmüller
+2 TYPE Beruf
+2 DATE 04.10.1661
+2 PLAC Lampersdorf
+1 FAMS @F1119@
+0 @I3118@ INDI
+1 NAME Christian /Ganßauge/
+2 GIVN Christian
+2 SURN Ganßauge
+1 SEX M
+1 BIRT
+2 DATE 04.10.1661
+2 PLAC Lampersdorf
+1 FAMC @F1119@
+0 @I3119@ INDI
+1 NAME Maria /Birckner/
+2 GIVN Maria
+2 SURN Birckner
+1 SEX F
+1 BIRT
+2 DATE 07.10.1661
+2 PLAC Limbach
+1 FAMC @F1082@
+0 @I3120@ INDI
+1 NAME Georg /Dietz/
+2 GIVN Georg
+2 SURN Dietz
+1 SEX M
+1 BIRT
+2 DATE 19.10.1661
+2 PLAC Birkenhain
+1 FAMC @F1120@
+0 @I3121@ INDI
+1 NAME Maria //
+2 GIVN Maria
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.05.1661
+2 PLAC Birkenhain
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 14.12.1661
+2 PLAC Birkenhain
+1 FAMS @F1120@
+0 @I3122@ INDI
+1 NAME Martin /Philip/
+2 GIVN Martin
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 29.10.1661
+2 PLAC Sora
+1 DEAT
+2 DATE 08.06.1663
+2 PLAC Sora
+1 FAMC @F1047@
+0 @I3123@ INDI
+1 NAME Peter /Köler/
+2 GIVN Peter
+2 SURN Köler
+1 SEX M
+1 BIRT
+2 DATE 14.12.1661
+2 PLAC Birkenhain
+1 DEAT
+2 DATE 10.01.1662
+2 PLAC Birkenhain
+1 FAMC @F1094@
+0 @I3124@ INDI
+1 NAME Hans /Zeising/
+2 GIVN Hans
+2 SURN Zeising
+1 SEX M
+1 EVEN 
+2 TYPE Weiland
+2 DATE 24.07.1661
+2 PLAC Grumbach
+1 EVEN Hoffetrscher
+2 TYPE Beruf
+2 DATE 23.10.1661
+2 PLAC Limbach
+1 FAMS @F1121@
+0 @I3125@ INDI
+1 NAME Martha //
+2 GIVN Martha
+2 SURN 
+1 SEX F
+1 CHR
+2 DATE ca. 1598
+2 PLAC 
+1 DEAT
+2 DATE 24.07.1661
+2 PLAC 
+1 FAMS @F1121@
+0 @I3126@ INDI
+1 NAME Margaretha /Uhlman/
+2 GIVN Margaretha
+2 SURN Uhlman
+1 SEX F
+1 CHR
+2 DATE ca. 1659
+2 PLAC 
+1 DEAT
+2 DATE 07.08.1661
+2 PLAC Limbach
+1 FAMC @F1118@
+0 @I3127@ INDI
+1 NAME Martha /Zeising/
+2 GIVN Martha
+2 SURN Zeising
+1 SEX F
+1 CHR
+2 DATE ca. 1658
+2 PLAC 
+1 DEAT
+2 DATE 23.10.1661
+2 PLAC Limbach
+1 FAMC @F1121@
+0 @I3128@ INDI
+1 NAME Jacob /Burckhard/
+2 GIVN Jacob
+2 SURN Burckhard
+1 SEX M
+1 EVEN Bauer Wittwer
+2 TYPE Erwähnung
+2 DATE 22.01.1662
+2 PLAC Malitz
+1 FAMS @F1122@
+0 @I3129@ INDI
+1 NAME Margaretha /Fuhrman/
+2 GIVN Margaretha
+2 SURN Fuhrman
+1 SEX F
+1 BIRT
+2 DATE 31.12.1661
+2 PLAC Lotzen
+1 DEAT
+2 DATE 16.01.1662
+2 PLAC Lotzen
+1 FAMC @F1111@
+0 @I3130@ INDI
+1 NAME Martin /Philip/
+2 GIVN Martin
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 24.01.1662
+2 PLAC Sora
+1 FAMC @F1056@
+0 @I3131@ INDI
+1 NAME Michael /Eylig/
+2 GIVN Michael
+2 SURN Eylig
+1 SEX M
+1 BIRT
+2 DATE 12.02.1662
+2 PLAC Sora
+1 FAMC @F1058@
+0 @I3132@ INDI
+1 NAME Peter /Philip/
+2 GIVN Peter
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 18.02.1662
+2 PLAC Limbach
+1 FAMC @F1086@
+0 @I3133@ INDI
+1 NAME Christina /Gerold/
+2 GIVN Christina
+2 SURN Gerold
+1 SEX F
+1 BIRT
+2 DATE 03.04.1662
+2 PLAC Limbach
+1 FAMC @F959@
+0 @I3134@ INDI
+1 NAME Bernhard /Rülcker/
+2 GIVN Bernhard
+2 SURN Rülcker
+1 SEX M
+1 BIRT
+2 DATE 04.04.1662
+2 PLAC Lampersdorf
+1 FAMC @F1110@
+0 @I3135@ INDI
+1 NAME Georg /Philip/
+2 GIVN Georg
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 28.05.1662
+2 PLAC Lotzen
+1 FAMC @F1108@
+0 @I3136@ INDI
+1 NAME Hans /Schlicke/
+2 GIVN Hans
+2 SURN Schlicke
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 28.05.1662
+2 PLAC Groitzsch
+1 EVEN Knecht
+2 TYPE Zeuge
+2 DATE 28.05.1662
+2 PLAC Sora
+0 @I3137@ INDI
+1 NAME Georg /Philip/
+2 GIVN Georg
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 24.08.1662
+2 PLAC Limbach
+1 FAMC @F1123@
+0 @I3138@ INDI
+1 NAME Georg /Tzschüdrich/
+2 GIVN Georg
+2 SURN Tzschüdrich
+1 SEX M
+1 EVEN 
+2 TYPE Weiland
+2 DATE 17.06.1663
+2 PLAC Sachsdorf
+1 FAMS @F1124@
+0 @I3139@ INDI
+1 NAME Johannes /Tzschüdrich/
+2 GIVN Johannes
+2 SURN Tzschüdrich
+1 SEX M
+1 FAMC @F1124@
+1 FAMS @F1125@
+0 @I3140@ INDI
+1 NAME Christoph /Pälich/
+2 GIVN Christoph
+2 SURN Pälich
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 25.11.1663
+2 PLAC Niederhermsdorf
+1 FAMS @F1127@
+0 @I3141@ INDI
+1 NAME Catharina /Pälich/
+2 GIVN Catharina
+2 SURN Pälich
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 22.02.1664
+2 PLAC Sora
+1 FAMC @F1127@
+1 FAMS @F1128@
+0 @I3142@ INDI
+1 NAME Paul /Philip/
+2 GIVN Paul
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 12.01.1663
+2 PLAC Lotzen
+1 FAMC @F1102@
+0 @I3143@ INDI
+1 NAME Martin /Steude/
+2 GIVN Martin
+2 SURN Steude
+1 SEX M
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 12.01.1663
+2 PLAC Lampersdorf
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 26.05.1664
+2 PLAC Lampersdorf
+0 @I3144@ INDI
+1 NAME Maria /Burckhard/
+2 GIVN Maria
+2 SURN Burckhard
+1 SEX F
+1 BIRT
+2 DATE 04.01.1663
+2 PLAC Sora
+1 FAMC @F1076@
+0 @I3145@ INDI
+1 NAME Anna //
+2 GIVN Anna
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.01.1663
+2 PLAC Lampersdorf
+1 FAMS @F1130@
+0 @I3146@ INDI
+1 NAME Anna /Schlicke/
+2 GIVN Anna
+2 SURN Schlicke
+1 SEX F
+1 BIRT
+2 DATE 18.02.1663
+2 PLAC Lotzen
+1 FAMC @F1063@
+0 @I3147@ INDI
+1 NAME Christina /Hoier/
+2 GIVN Christina
+2 SURN Hoier
+1 SEX F
+1 BIRT
+2 DATE 08.04.1663
+2 PLAC Sora
+1 FAMC @F1095@
+0 @I3148@ INDI
+1 NAME Maria /Dietz/
+2 GIVN Maria
+2 SURN Dietz
+1 SEX F
+1 BIRT
+2 DATE 22.06.1663
+2 PLAC Birkenhain
+1 FAMC @F1120@
+0 @I3149@ INDI
+1 NAME Maria /Fuhrman/
+2 GIVN Maria
+2 SURN Fuhrman
+1 SEX F
+1 BIRT
+2 DATE 04.08.1663
+2 PLAC Lotzen
+1 DEAT
+2 DATE 08.08.1663
+2 PLAC Lotzen
+1 FAMC @F1111@
+0 @I3150@ INDI
+1 NAME Maria //
+2 GIVN Maria
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 04.08.1663
+2 PLAC Lotzen
+1 FAMS @F1078@
+0 @I3151@ INDI
+1 NAME Martin /Donat/
+2 GIVN Martin
+2 SURN Donat
+1 SEX M
+1 BIRT
+2 DATE 04.08.1663
+2 PLAC 
+1 FAMC @F972@
+0 @I3152@ INDI
+1 NAME Matthes /Rülcker/
+2 GIVN Matthes
+2 SURN Rülcker
+1 SEX M
+1 BIRT
+2 DATE 03.09.1663
+2 PLAC Lampersdorf
+1 FAMC @F1110@
+0 @I3153@ INDI
+1 NAME Michael /Hülling/
+2 GIVN Michael
+2 SURN Hülling
+1 SEX M
+1 BIRT
+2 DATE 06.09.1663
+2 PLAC Sora
+1 DEAT
+2 DATE 04.10.1663
+2 PLAC Sora
+1 FAMC @F1013@
+0 @I3154@ INDI
+1 NAME Georg /Kirsten/
+2 GIVN Georg
+2 SURN Kirsten
+1 SEX M
+1 BIRT
+2 DATE 17.10.1663
+2 PLAC Lampersdorf
+1 FAMC @F1130@
+0 @I3155@ INDI
+1 NAME Martin /Dietz/
+2 GIVN Martin
+2 SURN Dietz
+1 SEX M
+1 BIRT
+2 DATE 04.11.1663
+2 PLAC Lampersdorf
+1 FAMC @F1114@
+0 @I3156@ INDI
+1 NAME Gregor /Brendel/
+2 GIVN Gregor
+2 SURN Brendel
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 24.02.1664
+2 PLAC Grumbach
+1 FAMS @F1131@
+0 @I3157@ INDI
+1 NAME Georg /Brendel/
+2 GIVN Georg
+2 SURN Brendel
+1 SEX M
+1 FAMC @F1131@
+1 FAMS @F1132@
+0 @I3158@ INDI
+1 NAME Maria /Philip/
+2 GIVN Maria
+2 SURN Philip
+1 SEX F
+1 BIRT
+2 DATE 22.02.1664
+2 PLAC Sora
+1 FAMC @F1056@
+0 @I3159@ INDI
+1 NAME Martin /Philip/
+2 GIVN Martin
+2 SURN Philip
+1 SEX M
+1 BIRT
+2 DATE 26.05.1664
+2 PLAC Lotzen
+1 FAMC @F1108@
+0 @I3160@ INDI
+1 NAME Rosina /Kost/
+2 GIVN Rosina
+2 SURN Kost
+1 SEX F
+1 BIRT
+2 DATE 09.06.1664
+2 PLAC Limbach
+1 FAMC @F964@
+0 @I3161@ INDI
+1 NAME Christian /Naumann/
+2 GIVN Christian
+2 SURN Naumann
+1 SEX M
+1 BIRT
+2 DATE 23.03.1664
+2 PLAC Limbach
+1 FAMC @F1006@
+0 @I3162@ INDI
+1 NAME Christian /Kern/
+2 GIVN Christian
+2 SURN Kern
+1 SEX M
+1 EVEN Schulmeister
+2 TYPE Zeuge
+2 DATE 23.03.1664
+2 PLAC Limbach
+0 @I3163@ INDI
+1 NAME Maria /Philip/
+2 GIVN Maria
+2 SURN Philip
+1 SEX F
+1 BIRT
+2 DATE 27.07.1664
+2 PLAC Limbach
+1 FAMC @F1123@
+0 @I3164@ INDI
+1 NAME Hans /Richter/
+2 GIVN Hans
+2 SURN Richter
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 27.07.1664
+2 PLAC Gernitz
+1 FAMS @F1135@
+0 @I3165@ INDI
+1 NAME Thomas /Goltzsch/
+2 GIVN Thomas
+2 SURN Goltzsch
+1 SEX M
+1 EVEN Schneider
+2 TYPE Beruf
+2 DATE 18.08.1664
+2 PLAC Limbach
+0 @I3166@ INDI
+1 NAME Hans /Winckler/
+2 GIVN Hans
+2 SURN Winckler
+1 SEX M
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 18.08.1664
+2 PLAC Blankenstein
+1 EVEN 
+2 TYPE Erwähnung
+2 DATE 18.08.1664
+2 PLAC Freiberg
+1 FAMS @F1134@
+0 @I3167@ INDI
+1 NAME Maria /Winckler/
+2 GIVN Maria
+2 SURN Winckler
+1 SEX F
+1 FAMC @F1134@
+1 FAMS @F1135@
+0 @I3168@ INDI
+1 NAME Anna Magdalena /Winckler/
+2 GIVN Anna Magdalena
+2 SURN Winckler
+1 SEX F
+1 BIRT
+2 DATE 18.08.1664
+2 PLAC 
+1 FAMC @F1135@
+0 @I3169@ INDI
+1 NAME Rebecca /Frietzsch/
+2 GIVN Rebecca
+2 SURN Frietzsch
+1 SEX F
+1 BIRT
+2 DATE 03.10.1664
+2 PLAC Sora
+1 FAMC @F1073@
+0 @I3170@ INDI
+1 NAME Peter /Fuhrman/
+2 GIVN Peter
+2 SURN Fuhrman
+1 SEX M
+1 BIRT
+2 DATE 21.10.1664
+2 PLAC Lotzen
+1 FAMC @F1111@
+0 @I3171@ INDI
+1 NAME Christina /Leuderitz/
+2 GIVN Christina
+2 SURN Leuderitz
+1 SEX F
+1 BIRT
+2 DATE 07.11.1664
+2 PLAC Limbach
+1 FAMC @F992@
+0 @I3172@ INDI
+1 NAME Maria //
+2 GIVN Maria
+2 SURN 
+1 SEX F
+1 EVEN 
+2 TYPE Zeuge
+2 DATE 07.11.1664
+2 PLAC Limbach
+1 FAMS @F1123@
+0 @I3173@ INDI
+1 NAME Georg /Wetzel/
+2 GIVN Georg
+2 SURN Wetzel
+1 SEX M
+1 EVEN Hoffetrescher
+2 TYPE Beruf
+2 DATE 07.03.1664
+2 PLAC Limbach
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -62594,6 +64752,7 @@
 1 CHIL @I3002@
 1 CHIL @I3003@
 1 CHIL @I3042@
+1 CHIL @I3093@
 1 MARR Y
 2 DATE 11.02.1635
 2 PLAC Sora
@@ -62825,6 +64984,7 @@
 1 CHIL @I2950@
 1 CHIL @I3007@
 1 CHIL @I3048@
+1 CHIL @I3133@
 1 MARR Y
 2 DATE 02.09.1640
 2 PLAC Limbach
@@ -62862,6 +65022,8 @@
 1 CHIL @I2918@
 1 CHIL @I2975@
 1 CHIL @I3064@
+1 CHIL @I3115@
+1 CHIL @I3160@
 1 MARR Y
 2 DATE 03.02.1641
 2 PLAC 
@@ -62910,6 +65072,7 @@
 1 WIFE @I2060@
 1 CHIL @I2825@
 1 CHIL @I2892@
+1 CHIL @I3151@
 1 MARR Y
 2 DATE 08.02.1642
 2 PLAC Sora
@@ -62976,6 +65139,7 @@
 1 CHIL @I2943@
 1 CHIL @I3001@
 1 CHIL @I3053@
+1 CHIL @I3108@
 1 MARR Y
 2 DATE 15.05.1644
 2 PLAC Sora
@@ -63012,6 +65176,7 @@
 1 CHIL @I2872@
 1 CHIL @I2915@
 1 CHIL @I3046@
+1 CHIL @I3090@
 0 @F988@ FAM
 1 HUSB @I2743@
 1 CHIL @I2744@
@@ -63035,6 +65200,8 @@
 1 CHIL @I2941@
 1 CHIL @I3005@
 1 CHIL @I3061@
+1 CHIL @I3109@
+1 CHIL @I3171@
 1 MARR Y
 2 DATE 04.07.1645
 2 PLAC Limbach
@@ -63065,6 +65232,7 @@
 1 CHIL @I2914@
 1 CHIL @I3000@
 1 CHIL @I3045@
+1 CHIL @I3077@
 1 MARR Y
 2 DATE 14.07.1646
 2 PLAC Sora
@@ -63119,6 +65287,8 @@
 1 CHIL @I2927@
 1 CHIL @I2980@
 1 CHIL @I3017@
+1 CHIL @I3105@
+1 CHIL @I3161@
 1 MARR Y
 2 DATE 23.02.1647
 2 PLAC Limbach
@@ -63146,6 +65316,7 @@
 1 CHIL @I2976@
 1 CHIL @I3028@
 1 CHIL @I3068@
+1 CHIL @I3116@
 1 MARR Y
 2 DATE 01.06.1647
 2 PLAC Limbach
@@ -63162,6 +65333,7 @@
 1 CHIL @I2898@
 1 CHIL @I2979@
 1 CHIL @I3029@
+1 CHIL @I3104@
 1 MARR Y
 2 DATE 23.11.1647
 2 PLAC Sora
@@ -63175,6 +65347,7 @@
 1 CHIL @I2866@
 1 CHIL @I2919@
 1 CHIL @I2982@
+1 CHIL @I3153@
 1 MARR Y
 2 DATE 26.04.1648
 2 PLAC Sora
@@ -63343,6 +65516,7 @@
 1 HUSB @I2937@
 1 WIFE @I2274@
 1 CHIL @I2965@
+1 CHIL @I3081@
 1 MARR Y
 2 DATE 30.08.1654
 2 PLAC Sora
@@ -63351,6 +65525,7 @@
 1 WIFE @I2196@
 1 CHIL @I2996@
 1 CHIL @I3032@
+1 CHIL @I3122@
 1 MARR Y
 2 DATE 21.11.1654
 2 PLAC Sora
@@ -63390,6 +65565,8 @@
 1 WIFE @I2956@
 1 CHIL @I3044@
 1 CHIL @I3073@
+1 CHIL @I3130@
+1 CHIL @I3158@
 1 MARR Y
 2 DATE 14.11.1655
 2 PLAC Limbach
@@ -63401,6 +65578,8 @@
 1 HUSB @I2628@
 1 WIFE @I2958@
 1 CHIL @I3022@
+1 CHIL @I3078@
+1 CHIL @I3131@
 1 MARR Y
 2 DATE 20.11.1655
 2 PLAC Sora
@@ -63411,6 +65590,7 @@
 1 HUSB @I2959@
 1 WIFE @I2961@
 1 CHIL @I3050@
+1 CHIL @I3091@
 1 MARR Y
 2 DATE 28.11.1655
 2 PLAC Limbach
@@ -63421,6 +65601,8 @@
 1 HUSB @I2968@
 1 WIFE @I2969@
 1 CHIL @I3030@
+1 CHIL @I3110@
+1 CHIL @I3146@
 1 MARR Y
 0 @F1064@ FAM
 1 HUSB @I2970@
@@ -63444,6 +65626,7 @@
 1 WIFE @I2430@
 1 CHIL @I3018@
 1 CHIL @I3066@
+1 CHIL @I3096@
 1 MARR Y
 2 DATE 10.02.1656
 2 PLAC Limbach
@@ -63467,6 +65650,8 @@
 1 WIFE @I2992@
 1 CHIL @I3027@
 1 CHIL @I3071@
+1 CHIL @I3111@
+1 CHIL @I3169@
 1 MARR Y
 2 DATE 08.09.1656
 2 PLAC Sora
@@ -63483,14 +65668,17 @@
 1 HUSB @I2113@
 1 WIFE @I2997@
 1 CHIL @I3031@
+1 CHIL @I3144@
 1 MARR Y
 0 @F1077@ FAM
 1 HUSB @I2998@
 1 CHIL @I2999@
 0 @F1078@ FAM
 1 HUSB @I3008@
+1 WIFE @I3150@
 1 CHIL @I3009@
 1 CHIL @I3067@
+1 MARR Y
 0 @F1079@ FAM
 1 HUSB @I2529@
 1 WIFE @I2345@
@@ -63509,6 +65697,7 @@
 0 @F1082@ FAM
 1 HUSB @I2359@
 1 WIFE @I2562@
+1 CHIL @I3119@
 1 MARR Y
 0 @F1083@ FAM
 1 HUSB @I3013@
@@ -63524,7 +65713,11 @@
 2 PLAC Limbach
 0 @F1086@ FAM
 1 HUSB @I3020@
+1 WIFE @I3097@
 1 CHIL @I3021@
+1 CHIL @I3082@
+1 CHIL @I3132@
+1 MARR Y
 0 @F1087@ FAM
 1 HUSB @I3024@
 1 CHIL @I3025@
@@ -63558,18 +65751,23 @@
 1 CHIL @I3051@
 1 CHIL @I3069@
 1 CHIL @I3070@
+1 CHIL @I3106@
 1 MARR Y
 2 DATE 02.07.1658
 2 PLAC Limbach
 0 @F1094@ FAM
 1 HUSB @I1841@
 1 WIFE @I2501@
+1 CHIL @I3085@
+1 CHIL @I3123@
 1 MARR Y
 2 DATE 16.11.1658
 2 PLAC Sora
 0 @F1095@ FAM
 1 HUSB @I1924@
 1 WIFE @I2360@
+1 CHIL @I3076@
+1 CHIL @I3147@
 1 MARR Y
 2 DATE 08.02.1659
 2 PLAC Sora
@@ -63597,7 +65795,177 @@
 0 @F1101@ FAM
 1 HUSB @I2387@
 1 WIFE @I3060@
+1 CHIL @I3079@
 1 MARR Y
 2 DATE 30.12.1659
 2 PLAC Sora
+0 @F1102@ FAM
+1 HUSB @I2367@
+1 WIFE @I2583@
+1 CHIL @I3113@
+1 CHIL @I3142@
+1 MARR Y
+2 DATE 13.11.1660
+2 PLAC Sora
+0 @F1103@ FAM
+1 HUSB @I3074@
+1 CHIL @I3075@
+0 @F1104@ FAM
+1 HUSB @I3075@
+1 WIFE @I2205@
+1 MARR Y
+2 DATE 27.11.1660
+2 PLAC Limbach
+0 @F1105@ FAM
+1 HUSB @I3083@
+1 CHIL @I3084@
+0 @F1106@ FAM
+1 HUSB @I3086@
+1 CHIL @I3087@
+0 @F1107@ FAM
+1 HUSB @I3088@
+1 WIFE @I3089@
+1 MARR Y
+0 @F1108@ FAM
+1 HUSB @I3094@
+1 WIFE @I3095@
+1 CHIL @I3135@
+1 CHIL @I3159@
+1 MARR Y
+0 @F1109@ FAM
+1 HUSB @I3098@
+1 CHIL @I3099@
+0 @F1110@ FAM
+1 HUSB @I2063@
+1 WIFE @I3099@
+1 CHIL @I3134@
+1 CHIL @I3152@
+1 MARR Y
+2 DATE 07.02.1661
+2 PLAC Sora
+0 @F1111@ FAM
+1 HUSB @I2636@
+1 WIFE @I2638@
+1 CHIL @I3129@
+1 CHIL @I3149@
+1 CHIL @I3170@
+1 MARR Y
+2 DATE 26.02.1661
+2 PLAC Sora
+0 @F1112@ FAM
+1 HUSB @I3100@
+1 CHIL @I3101@
+0 @F1113@ FAM
+1 HUSB @I2344@
+1 WIFE @I3101@
+1 MARR Y
+2 DATE 26.02.1661
+2 PLAC Sora
+0 @F1114@ FAM
+1 HUSB @I2141@
+1 WIFE @I2557@
+1 CHIL @I3155@
+1 MARR Y
+2 DATE 22.10.1661
+2 PLAC Sora
+0 @F1115@ FAM
+1 HUSB @I3102@
+1 CHIL @I3103@
+0 @F1116@ FAM
+1 HUSB @I2590@
+1 WIFE @I3103@
+1 MARR Y
+2 DATE 26.11.1661
+2 PLAC Sora
+0 @F1117@ FAM
+1 HUSB @I2930@
+1 WIFE @I3112@
+1 MARR Y
+0 @F1118@ FAM
+1 HUSB @I2115@
+1 CHIL @I3114@
+1 CHIL @I3126@
+0 @F1119@ FAM
+1 HUSB @I3117@
+1 CHIL @I3118@
+0 @F1120@ FAM
+1 HUSB @I2402@
+1 WIFE @I3121@
+1 CHIL @I3120@
+1 CHIL @I3148@
+1 MARR Y
+0 @F1121@ FAM
+1 HUSB @I3124@
+1 WIFE @I3125@
+1 CHIL @I3127@
+1 MARR Y
+0 @F1122@ FAM
+1 HUSB @I3128@
+1 WIFE @I2267@
+1 MARR Y
+2 DATE 22.01.1662
+2 PLAC Sora
+0 @F1123@ FAM
+1 HUSB @I2624@
+1 WIFE @I3172@
+1 CHIL @I3137@
+1 CHIL @I3163@
+1 MARR Y
+0 @F1124@ FAM
+1 HUSB @I3138@
+1 CHIL @I3139@
+0 @F1125@ FAM
+1 HUSB @I3139@
+1 WIFE @I3054@
+1 MARR Y
+2 DATE 17.06.1663
+2 PLAC Sora
+0 @F1126@ FAM
+1 HUSB @I1980@
+1 WIFE @I1973@
+1 MARR Y
+2 DATE 03.11.1663
+2 PLAC Sora
+0 @F1127@ FAM
+1 HUSB @I3140@
+1 CHIL @I3141@
+0 @F1128@ FAM
+1 HUSB @I2278@
+1 WIFE @I3141@
+1 MARR Y
+2 DATE 25.11.1663
+2 PLAC Sora
+0 @F1129@ FAM
+1 HUSB @I2385@
+1 WIFE @I2690@
+1 MARR Y
+2 DATE 04.03.1663
+2 PLAC Sora
+0 @F1130@ FAM
+1 HUSB @I2357@
+1 WIFE @I3145@
+1 CHIL @I3154@
+1 MARR Y
+0 @F1131@ FAM
+1 HUSB @I3156@
+1 CHIL @I3157@
+0 @F1132@ FAM
+1 HUSB @I3157@
+1 WIFE @I2680@
+1 MARR Y
+2 DATE 24.02.1664
+2 PLAC Limbach
+0 @F1133@ FAM
+1 HUSB @I2506@
+1 WIFE @I2674@
+1 MARR Y
+2 DATE 22.11.1664
+2 PLAC Sora
+0 @F1134@ FAM
+1 HUSB @I3166@
+1 CHIL @I3167@
+0 @F1135@ FAM
+1 HUSB @I3164@
+1 WIFE @I3167@
+1 CHIL @I3168@
 0 TRLR
