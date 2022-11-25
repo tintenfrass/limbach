@@ -1,0 +1,24 @@
+{
+ "individuals": null,
+ "events": null,
+ "eventtypes": [
+  "Erwähnung",
+  "Geburt",
+  "Taufe",
+  "Tod",
+  "Trauung",
+  "Weiland",
+  "Zeuge",
+  ""
+ ],
+ "places": [
+  "Birkenhain",
+  "Lampersdorf",
+  "Limbach",
+  "Lotzen",
+  "Sora",
+  ""
+ ],
+ "counterI": 1,
+ "counterE": 1
+}
