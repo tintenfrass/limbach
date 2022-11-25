@@ -5,6 +5,8 @@
 ### Das Programm
 -ist erstellt wurden zum schnellen Erfassen der Kirchenbucheinträge von Limbach<br>
 -ist experimentel und nicht ausgereift!<br>
+### Screenshot
+![Screenshot](example.jpg)
 
 ### Die Daten
 -bisher erfasste Daten liegen als gedcom-Datei im Ordner "gedcom"<br>
