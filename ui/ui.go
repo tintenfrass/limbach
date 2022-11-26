@@ -18,7 +18,6 @@ func BuildAndRun() {
 
 	eventTypes := iup.List().SetHandle("eventtypes").SetAttribute("SIZE", "60x66")
 	initFixedEventtypes()
-	eventList := iup.List().SetAttribute("SIZE", "77x197").SetHandle("eventList")
 	msg := iup.Text().SetAttribute("SIZE", "60x").SetHandle("msg")
 	places := iup.List().SetHandle("places").SetAttribute("SIZE", "85x50")
 	initFixedPlaces()
@@ -131,7 +130,7 @@ func BuildAndRun() {
 			),
 		).SetAttributes("MARGIN=1x1, GAP=1"),
 		iup.Vbox(
-			eventList,
+			iup.Space().SetAttribute("SIZE", "x197"),
 			personField,
 		).SetAttributes("MARGIN=1x1, GAP=2"),
 		iup.Vbox(
@@ -438,7 +437,7 @@ func BuildAndRun() {
 	iup.SetCallback(msg, "VALUECHANGED_CB", iup.ValueChangedFunc(msgChange))
 
 	//Events
-	iup.SetCallback(eventList, "VALUECHANGED_CB", iup.ValueChangedFunc(loadEvent))
+	iup.SetCallback(personalEvents, "VALUECHANGED_CB", iup.ValueChangedFunc(loadEvent))
 	iup.SetCallback(eventDate, "VALUECHANGED_CB", iup.ValueChangedFunc(changeDate))
 	iup.SetCallback(married, "VALUECHANGED_CB", iup.ValueChangedFunc(changeMarried))
 	iup.SetCallback(marriedSet, "ACTION", iup.ActionFunc(marriedDetails))

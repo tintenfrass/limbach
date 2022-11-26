@@ -16,15 +16,19 @@ func Load() {
 		defer jsonFile.Close()
 
 		byteValue, _ := ioutil.ReadAll(jsonFile)
-		json.Unmarshal(byteValue, &Data)
+		err = json.Unmarshal(byteValue, &Data)
+
+		if err != nil {
+			fmt.Println(err)
+		} else {
+			PlaceStorage = make(map[string]struct{})
+			UpdatePersonalDataStorage([]int{})
+			UpdateStorage()
+			LoadAllNames()
+		}
 	} else {
 		fmt.Println(err)
 	}
-
-	PlaceStorage = make(map[string]struct{})
-	UpdatePersonalDataStorage([]int{})
-	UpdateStorage()
-	LoadAllNames()
 }
 
 //save to json

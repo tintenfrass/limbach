@@ -89,3 +89,27 @@ func dateAfter(date1, date2 string) bool {
 		return y1 > y2
 	}
 }
+
+type personSort []string
+
+func (p personSort) Len() int {
+	return len(p)
+}
+func (p personSort) Swap(i, j int) {
+	p[i], p[j] = p[j], p[i]
+}
+func (p personSort) Less(i, j int) bool {
+	p[i] = strings.TrimSpace(p[i])
+	p[j] = strings.TrimSpace(p[j])
+	posI := strings.Index(p[i], "I-")
+	posJ := strings.Index(p[j], "I-")
+	if posI >= 0 && len(p[i]) > posI+2 && posJ >= 0 && len(p[j]) > posJ+2 {
+		idI := strings.TrimSpace(p[i][posI+2:])
+		idJ := strings.TrimSpace(p[j][posJ+2:])
+		vI, _ := strconv.Atoi(idI)
+		vJ, _ := strconv.Atoi(idJ)
+		return vI < vJ
+	}
+
+	return true
+}

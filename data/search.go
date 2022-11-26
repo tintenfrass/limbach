@@ -102,7 +102,7 @@ func FindPerson(input string) (resultList []ResultData) {
 //Events, Lebensdaten etc.
 func getPersonalData(id int) (pd ResultData) {
 
-	valid, gn, fn, sex, age1, age2, events, _ := GetPersonalData(id)
+	valid, gn, fn, sex, age1, age2, events := GetPersonalData(id)
 	if !valid {
 		return
 	}

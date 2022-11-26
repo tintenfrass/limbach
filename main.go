@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Lympach 0.1")
+	fmt.Println("Lympach 0.2")
 
 	data.Load()
 

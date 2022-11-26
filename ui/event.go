@@ -12,6 +12,9 @@ func saveEvent(handle string) {
 	eventId, err := strconv.Atoi(iup.GetHandle("eventId").GetAttribute("TITLE"))
 	if err != nil {
 		//New Event
+		if data.Data.CounterE == 0 {
+			data.Data.CounterE++
+		}
 		eventId = data.Data.CounterE
 		iup.GetHandle("eventId").SetAttribute("TITLE", eventId)
 		data.Data.CounterE++
@@ -74,84 +77,84 @@ func saveEvent(handle string) {
 		storage.Details = details
 		ids = append(ids, storage.Parent1.Xref, storage.Parent2.Xref, storage.Child.Xref)
 	case "grandparent1":
-		ids = append(ids, storage.Grandparent1.Xref)
+		ids = append(ids, storage.Grandparent1.Xref, storage.Grandparent2.Xref, storage.Parent1.Xref)
 		storage.Grandparent1 = rec
 	case "grandparent2":
-		ids = append(ids, storage.Grandparent2.Xref)
+		ids = append(ids, storage.Grandparent1.Xref, storage.Grandparent2.Xref, storage.Parent1.Xref)
 		storage.Grandparent2 = rec
 	case "grandparent3":
-		ids = append(ids, storage.Grandparent3.Xref)
+		ids = append(ids, storage.Grandparent3.Xref, storage.Grandparent4.Xref, storage.Parent2.Xref)
 		storage.Grandparent3 = rec
 	case "grandparent4":
-		ids = append(ids, storage.Grandparent4.Xref)
+		ids = append(ids, storage.Grandparent3.Xref, storage.Grandparent4.Xref, storage.Parent2.Xref)
 		storage.Grandparent4 = rec
 	case "parent1":
-		ids = append(ids, storage.Parent1.Xref)
+		ids = append(ids, storage.Child.Xref, storage.Parent1.Xref, storage.Parent2.Xref, storage.Grandparent1.Xref, storage.Grandparent2.Xref)
 		storage.Parent1 = rec
 	case "parent2":
-		ids = append(ids, storage.Parent2.Xref)
+		ids = append(ids, storage.Child.Xref, storage.Parent1.Xref, storage.Parent2.Xref, storage.Grandparent3.Xref, storage.Grandparent3.Xref)
 		storage.Parent2 = rec
 	case "child":
-		ids = append(ids, storage.Child.Xref)
+		ids = append(ids, storage.Child.Xref, storage.Parent1.Xref, storage.Parent2.Xref)
 		storage.Child = rec
 	case "parentA":
 		d := storage.Additionals["A"]
-		ids = append(ids, d.Parent.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Parent = rec
 		storage.Additionals["A"] = d
 	case "spouseA":
 		d := storage.Additionals["A"]
-		ids = append(ids, d.Spouse.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Spouse = rec
 		storage.Additionals["A"] = d
 	case "childA":
 		d := storage.Additionals["A"]
-		ids = append(ids, d.Child.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Child = rec
 		storage.Additionals["A"] = d
 	case "parentB":
 		d := storage.Additionals["B"]
-		ids = append(ids, d.Parent.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Parent = rec
 		storage.Additionals["B"] = d
 	case "spouseB":
 		d := storage.Additionals["B"]
-		ids = append(ids, d.Spouse.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Spouse = rec
 		storage.Additionals["B"] = d
 	case "childB":
 		d := storage.Additionals["B"]
-		ids = append(ids, d.Child.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Child = rec
 		storage.Additionals["B"] = d
 	case "parentC":
 		d := storage.Additionals["C"]
-		ids = append(ids, d.Parent.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Parent = rec
 		storage.Additionals["C"] = d
 	case "spouseC":
 		d := storage.Additionals["C"]
-		ids = append(ids, d.Spouse.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Spouse = rec
 		storage.Additionals["C"] = d
 	case "childC":
 		d := storage.Additionals["C"]
-		ids = append(ids, d.Child.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Child = rec
 		storage.Additionals["C"] = d
 	case "parentD":
 		d := storage.Additionals["D"]
-		ids = append(ids, d.Parent.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Parent = rec
 		storage.Additionals["D"] = d
 	case "spouseD":
 		d := storage.Additionals["D"]
-		ids = append(ids, d.Spouse.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Spouse = rec
 		storage.Additionals["D"] = d
 	case "childD":
 		d := storage.Additionals["D"]
-		ids = append(ids, d.Child.Xref)
+		ids = append(ids, d.Parent.Xref, d.Spouse.Xref, d.Child.Xref)
 		d.Child = rec
 		storage.Additionals["D"] = d
 	}

@@ -10,12 +10,12 @@ import (
 )
 
 func loadEvent(ih iup.Ihandle) int {
-	val := iup.GetHandle("eventList").GetAttribute("VALUESTRING")
-	parts := strings.Split(val, " ")
-	if len(parts) == 0 || len(parts[0]) == 0 {
+	val := iup.GetHandle("personalEvents").GetAttribute("VALUESTRING")
+	eId, _, _, _, _ := data.SplitEvent(val)
+	if len(eId) < 3 {
 		return iup.DEFAULT
 	}
-	id, err := strconv.Atoi(parts[0])
+	id, err := strconv.Atoi(eId[2:])
 	if err != nil {
 		return iup.DEFAULT
 	}
@@ -77,7 +77,7 @@ func showPerson(ih iup.Ihandle) int {
 func selectPerson(ih iup.Ihandle) int {
 	value := iup.GetHandle("family").GetAttribute("VALUESTRING")
 	pos := strings.Index(value, "I-")
-	if pos >= 0 && len(value) > pos {
+	if pos >= 0 && len(value) > pos+2 {
 		iup.GetHandle("search").SetAttribute("VALUE", value[pos+2:])
 		search(iup.GetHandle("search"))
 		iup.GetHandle("person").SetAttribute("VALUE", 1)
@@ -124,8 +124,8 @@ func deletePerson(ih iup.Ihandle) int {
 	if id == 0 {
 		return iup.DEFAULT
 	}
-	valid, _, _, _, _, _, _, apps := data.GetPersonalData(id)
-	if valid && len(apps) == 0 {
+	valid, _, _, _, _, _, ev := data.GetPersonalData(id)
+	if valid && len(ev) == 0 {
 		data.DeletePerson(id)
 		data.UpdatePersonalDataStorage([]int{id})
 

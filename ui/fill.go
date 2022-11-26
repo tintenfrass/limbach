@@ -8,7 +8,7 @@ import (
 )
 
 func SetPerson(handle string, pr data.PersonRecord) {
-	valid, gn, fn, _, age1, age2, _, _ := data.GetPersonalData(pr.Xref)
+	valid, gn, fn, _, age1, age2, _ := data.GetPersonalData(pr.Xref)
 	if !valid {
 		RemovePerson(handle)
 		return
@@ -25,7 +25,7 @@ func RemovePerson(handle string) {
 }
 
 func updatePersonalEvents() {
-	valid, gn, fn, sex, _, _, events, apps := data.GetPersonalData(validatePerson(iup.GetHandle("person").GetAttribute("VALUESTRING")))
+	valid, gn, fn, sex, _, _, events := data.GetPersonalData(validatePerson(iup.GetHandle("person").GetAttribute("VALUESTRING")))
 	if !valid {
 		return
 	}
@@ -36,12 +36,17 @@ func updatePersonalEvents() {
 		iup.SetAttribute(iup.GetHandle("personalEvents"), strconv.Itoa(p), utf82ui(events[i]))
 		p++
 	}
-
-	iup.SetAttribute(iup.GetHandle("eventList"), "REMOVEITEM", "ALL")
-	p = 1
-	for i := len(apps) - 1; i >= 0; i-- {
-		iup.SetAttribute(iup.GetHandle("eventList"), strconv.Itoa(p), utf82ui(apps[i]))
-		p++
+	if len(events) > 0 {
+		newestEvent := events[len(events)-1]
+		_, _, _, pl, _ := data.SplitEvent(newestEvent)
+		count := iup.GetHandle("places").GetAttribute("COUNT")
+		c, _ := strconv.Atoi(count)
+		for i := 0; i < c; i++ {
+			if iup.GetHandle("places").GetAttribute(strconv.Itoa(i+1)) == pl {
+				iup.GetHandle("places").SetAttribute("VALUE", i+1)
+				iup.GetHandle("places1").SetAttribute("VALUE", pl)
+			}
+		}
 	}
 
 	iup.GetHandle("inputgname").SetAttribute("VALUE", utf82ui(gn))

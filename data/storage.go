@@ -14,7 +14,7 @@ var PersonalDateStorage map[int]PersonalData
 
 type PersonalData struct {
 	gn, fn, sex, age1, age2 string
-	events, appearances     []string
+	events                  []string
 }
 
 type Familie struct {
@@ -29,7 +29,7 @@ type span struct {
 	end   string
 }
 
-func CreatePersonalData(id int) (valid bool, gn, fn, sex, age1, age2 string, events, appearances []string) {
+func CreatePersonalData(id int) (valid bool, gn, fn, sex, age1, age2 string, events []string) {
 	if val, ok := Data.Individual[id]; ok {
 		gn = val.GName
 		fn = val.FName
@@ -42,81 +42,68 @@ func CreatePersonalData(id int) (valid bool, gn, fn, sex, age1, age2 string, eve
 	}
 
 	personalEvents := []personalEvent{}
-	app := make(map[int]string) //id date
 
 	for eId, ev := range Data.Events {
 		PlaceStorage[ev.Details.Place] = struct{}{}
 		if ev.Grandparent1.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Grandparent1.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Grandparent1.Details})
 		}
 		PlaceStorage[ev.Grandparent1.Details.Place] = struct{}{}
 		if ev.Grandparent2.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Grandparent2.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Grandparent2.Details})
 		}
 		PlaceStorage[ev.Grandparent2.Details.Place] = struct{}{}
 		if ev.Grandparent3.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Grandparent3.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Grandparent3.Details})
 		}
 		PlaceStorage[ev.Grandparent3.Details.Place] = struct{}{}
 		if ev.Grandparent4.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Grandparent4.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Grandparent4.Details})
 		}
 		PlaceStorage[ev.Grandparent4.Details.Place] = struct{}{}
 		if ev.Parent1.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Parent1.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Parent1.Details})
 			if ev.Parent2.Xref > 0 && ev.Parent2.Details.Type == "Tod" {
 				e := ev.Parent2.Details
 				e.Type += " der Partnerin"
-				personalEvents = append(personalEvents, personalEvent{ev.Date, e})
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, e})
 			}
 		}
 		PlaceStorage[ev.Parent1.Details.Place] = struct{}{}
 		if ev.Parent2.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Parent2.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Parent2.Details})
 			if ev.Parent1.Xref > 0 && ev.Parent1.Details.Type == "Tod" {
 				e := ev.Parent1.Details
 				e.Type += " des Partners"
-				personalEvents = append(personalEvents, personalEvent{ev.Date, e})
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, e})
 			}
 		}
 		PlaceStorage[ev.Parent2.Details.Place] = struct{}{}
 		if ev.Parent1.Xref == id || ev.Parent2.Xref == id {
 			if ev.Details.Type == "Trauung" {
-				personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Details})
-				app[eId] = ev.Date
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Details})
 			}
 			if ev.Child.Xref > 0 && len(ev.Child.Details.Type) > 0 && len(ev.Date) > 0 {
 				e := ev.Child.Details
 				e.Type += " eines Kindes"
-				personalEvents = append(personalEvents, personalEvent{ev.Date, e})
-				app[eId] = ev.Date
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, e})
 			}
 		}
 		if ev.Child.Xref == id {
-			personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Child.Details})
-			app[eId] = ev.Date
+			personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Child.Details})
 		}
 		PlaceStorage[ev.Child.Details.Place] = struct{}{}
 		for _, key := range AdditonalKeys {
 			if ev.Additionals[key].Parent.Xref == id {
-				personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Additionals[key].Parent.Details})
-				app[eId] = ev.Date
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Additionals[key].Parent.Details})
 			}
 			PlaceStorage[ev.Additionals[key].Parent.Details.Place] = struct{}{}
 			if ev.Additionals[key].Spouse.Xref == id {
-				personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Additionals[key].Spouse.Details})
-				app[eId] = ev.Date
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Additionals[key].Spouse.Details})
 			}
 			PlaceStorage[ev.Additionals[key].Spouse.Details.Place] = struct{}{}
 			if ev.Additionals[key].Child.Xref == id {
-				personalEvents = append(personalEvents, personalEvent{ev.Date, ev.Additionals[key].Child.Details})
-				app[eId] = ev.Date
+				personalEvents = append(personalEvents, personalEvent{eId, ev.Date, ev.Additionals[key].Child.Details})
 			}
 			PlaceStorage[ev.Additionals[key].Child.Details.Place] = struct{}{}
 		}
@@ -127,7 +114,7 @@ func CreatePersonalData(id int) (valid bool, gn, fn, sex, age1, age2 string, eve
 		if len(pe.details.Type) == 0 {
 			continue
 		}
-		events = append(events, fmt.Sprintf("%s | %s | %s | %s", pe.date, pe.details.Type, pe.details.Place, pe.details.Msg))
+		events = append(events, fmt.Sprintf("E-%d | %s | %s | %s | %s", pe.eId, pe.date, pe.details.Type, pe.details.Place, pe.details.Msg))
 		if pe.details.Type == "Taufe" || pe.details.Type == "Geburt" {
 			age1 = pe.date
 		} else if pe.details.Type == "Tod" {
@@ -155,11 +142,6 @@ func CreatePersonalData(id int) (valid bool, gn, fn, sex, age1, age2 string, eve
 		}
 	}
 
-	for k, date := range app {
-		appearances = append(appearances, fmt.Sprintf("%d %s", k, date))
-	}
-	sort.Strings(appearances)
-
 	return
 }
 
@@ -170,19 +152,18 @@ func UpdatePersonalDataStorage(ids []int) {
 
 	if len(ids) == 0 {
 		for _, indi := range Data.Individual {
-			valid, gn, fn, sex, age1, age2, evs, apps := CreatePersonalData(indi.Xref)
+			valid, gn, fn, sex, age1, age2, evs := CreatePersonalData(indi.Xref)
 			if !valid {
 				delete(PersonalDateStorage, indi.Xref)
 				continue
 			}
 			pd := PersonalData{
-				gn:          gn,
-				fn:          fn,
-				sex:         sex,
-				age1:        age1,
-				age2:        age2,
-				events:      evs,
-				appearances: apps,
+				gn:     gn,
+				fn:     fn,
+				sex:    sex,
+				age1:   age1,
+				age2:   age2,
+				events: evs,
 			}
 			PersonalDateStorage[indi.Xref] = pd
 		}
@@ -191,19 +172,18 @@ func UpdatePersonalDataStorage(ids []int) {
 			if id == 0 {
 				continue
 			}
-			valid, gn, fn, sex, age1, age2, evs, apps := CreatePersonalData(id)
+			valid, gn, fn, sex, age1, age2, evs := CreatePersonalData(id)
 			if !valid {
 				delete(PersonalDateStorage, id)
 				continue
 			}
 			pd := PersonalData{
-				gn:          gn,
-				fn:          fn,
-				sex:         sex,
-				age1:        age1,
-				age2:        age2,
-				events:      evs,
-				appearances: apps,
+				gn:     gn,
+				fn:     fn,
+				sex:    sex,
+				age1:   age1,
+				age2:   age2,
+				events: evs,
 			}
 			PersonalDateStorage[id] = pd
 		}
@@ -258,10 +238,11 @@ func UpdateStorage() {
 			}
 			if ev.Details.Type == "Trauung" {
 				marriedWith[ev.Parent1.Xref][ev.Parent2.Xref] = ev.Date
-			} else {
+			} else if _, exists := marriedWith[ev.Parent1.Xref][ev.Parent2.Xref]; !exists {
 				marriedWith[ev.Parent1.Xref][ev.Parent2.Xref] = ""
 			}
 		}
+
 		for _, key := range AdditonalKeys {
 			if ev.Additionals[key].Parent.Xref > 0 && ev.Additionals[key].Child.Xref > 0 {
 				if children[ev.Additionals[key].Child.Xref] == nil {
@@ -273,7 +254,9 @@ func UpdateStorage() {
 				if marriedWith[ev.Additionals[key].Parent.Xref] == nil {
 					marriedWith[ev.Additionals[key].Parent.Xref] = make(map[int]string)
 				}
-				marriedWith[ev.Additionals[key].Parent.Xref][ev.Additionals[key].Spouse.Xref] = ""
+				if _, exists := marriedWith[ev.Additionals[key].Parent.Xref][ev.Additionals[key].Spouse.Xref]; !exists {
+					marriedWith[ev.Additionals[key].Parent.Xref][ev.Additionals[key].Spouse.Xref] = ""
+				}
 			}
 		}
 	}
@@ -292,7 +275,7 @@ func UpdateStorage() {
 			if spans[father] == nil {
 				spans[father] = make(map[int]span)
 			}
-			_, _, _, _, age1, age2, _, _ := GetPersonalData(mother)
+			_, _, _, _, age1, age2, _ := GetPersonalData(mother)
 			if age2 == "Weiland" {
 				age2 = ""
 			}
@@ -329,7 +312,7 @@ func UpdateStorage() {
 			familyList[familyId] = fam
 
 			//Spans aktualisieren
-			_, _, _, _, _, age2, _, _ := GetPersonalData(mother)
+			_, _, _, _, _, age2, _ := GetPersonalData(mother)
 			if age2 == "Weiland" {
 				age2 = date
 			}
@@ -361,7 +344,7 @@ func UpdateStorage() {
 
 		//check for mother
 		if father > 0 && mother == 0 {
-			_, _, _, _, birth, _, _, _ := GetPersonalData(cId)
+			_, _, _, _, birth, _, _ := GetPersonalData(cId)
 			possibleMothers := []int{}
 			for m, s := range spans[father] {
 				if len(s.begin) > 0 && len(birth) > 0 && dateAfter(s.begin, birth) {
@@ -369,6 +352,10 @@ func UpdateStorage() {
 				}
 				if len(s.end) > 0 && len(birth) > 0 && dateAfter(birth, s.end) {
 					continue
+				}
+				if len(birth) > 0 && len(s.begin) > 0 && len(s.end) > 0 && dateAfter(birth, s.begin) && dateAfter(s.end, birth) {
+					possibleMothers = []int{m}
+					break
 				}
 				possibleMothers = append(possibleMothers, m)
 			}

@@ -29,7 +29,7 @@ func getGedcomData(data *FullData) (output string) {
 
 	//individuals
 	for _, indi := range data.Individual {
-		valid, _, _, _, _, _, events, _ := GetPersonalData(indi.Xref)
+		valid, _, _, _, _, _, events := GetPersonalData(indi.Xref)
 		if !valid {
 			continue
 		}
@@ -111,12 +111,9 @@ func getF(input int) (f string) {
 //Geburt
 func getBirt(events []string) (exists bool, date, place string) {
 	for _, ev := range events {
-		parts := strings.Split(ev, "|")
-		if len(parts) < 4 {
-			continue
-		}
-		if strings.TrimSpace(parts[1]) == "Geburt" {
-			return true, strings.TrimSpace(parts[0]), strings.TrimSpace(parts[2])
+		_, dt, typ, pl, _ := SplitEvent(ev)
+		if typ == "Geburt" {
+			return true, dt, pl
 		}
 	}
 
@@ -126,12 +123,9 @@ func getBirt(events []string) (exists bool, date, place string) {
 //Taufe
 func getChr(events []string) (exists bool, date, place string) {
 	for _, ev := range events {
-		parts := strings.Split(ev, "|")
-		if len(parts) < 4 {
-			continue
-		}
-		if strings.TrimSpace(parts[1]) == "Taufe" {
-			return true, strings.TrimSpace(parts[0]), strings.TrimSpace(parts[2])
+		_, dt, typ, pl, _ := SplitEvent(ev)
+		if typ == "Taufe" {
+			return true, dt, pl
 		}
 	}
 
@@ -141,12 +135,9 @@ func getChr(events []string) (exists bool, date, place string) {
 //Tod
 func getDeat(events []string) (exists bool, date, place string) {
 	for _, ev := range events {
-		parts := strings.Split(ev, "|")
-		if len(parts) < 4 {
-			continue
-		}
-		if strings.TrimSpace(parts[1]) == "Tod" {
-			return true, strings.TrimSpace(parts[0]), strings.TrimSpace(parts[2])
+		_, dt, typ, pl, _ := SplitEvent(ev)
+		if typ == "Tod" {
+			return true, dt, pl
 		}
 	}
 
@@ -167,13 +158,9 @@ func getMarr(father, mother int) (exists bool, date, place string) {
 //Events
 func getEvents(events []string) (evs []event) {
 	for _, ev := range events {
-		parts := strings.Split(ev, "|")
-		if len(parts) < 4 {
-			continue
-		}
-		parts[1] = strings.TrimSpace(parts[1])
-		if parts[1] != "Taufe" && parts[1] != "Geburt" && parts[1] != "Tod" && parts[1] != "Taufe eines Kindes" && parts[1] != "Geburt eines Kindes" {
-			evs = append(evs, event{parts[1], strings.TrimSpace(parts[0]), strings.TrimSpace(parts[2]), strings.TrimSpace(parts[3])})
+		_, dt, typ, pl, msg := SplitEvent(ev)
+		if typ != "Taufe" && typ != "Geburt" && typ != "Tod" && typ != "Taufe eines Kindes" && typ != "Geburt eines Kindes" {
+			evs = append(evs, event{typ, dt, pl, msg})
 		}
 	}
 
