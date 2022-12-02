@@ -36,15 +36,36 @@ func updatePersonalEvents() {
 		iup.SetAttribute(iup.GetHandle("personalEvents"), strconv.Itoa(p), utf82ui(events[i]))
 		p++
 	}
+
+	updatePlaces()
+
+	iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
+	iup.GetHandle("placesMiddle").SetAttribute("VALUE", "")
+	iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
+
 	if len(events) > 0 {
 		newestEvent := events[len(events)-1]
 		_, _, _, pl, _ := data.SplitEvent(newestEvent)
-		count := iup.GetHandle("places").GetAttribute("COUNT")
-		c, _ := strconv.Atoi(count)
+
+		countBottom := iup.GetHandle("placesBottom").GetAttribute("COUNT")
+		c, _ := strconv.Atoi(countBottom)
+		iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
 		for i := 0; i < c; i++ {
-			if iup.GetHandle("places").GetAttribute(strconv.Itoa(i+1)) == pl {
-				iup.GetHandle("places").SetAttribute("VALUE", i+1)
-				iup.GetHandle("places1").SetAttribute("VALUE", pl)
+			if iup.GetHandle("placesBottom").GetAttribute(strconv.Itoa(i+1)) == pl {
+				iup.GetHandle("placesBottom").SetAttribute("VALUE", i+1)
+				iup.GetHandle("placesMiddle").SetAttribute("VALUE", pl)
+				break
+			}
+		}
+
+		countTop := iup.GetHandle("placesTop").GetAttribute("COUNT")
+		c, _ = strconv.Atoi(countTop)
+		iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
+		for i := 0; i < c; i++ {
+			if iup.GetHandle("placesTop").GetAttribute(strconv.Itoa(i+1)) == pl {
+				iup.GetHandle("placesTop").SetAttribute("VALUE", i+1)
+				iup.GetHandle("placesMiddle").SetAttribute("VALUE", pl)
+				break
 			}
 		}
 	}
@@ -53,8 +74,9 @@ func updatePersonalEvents() {
 	iup.GetHandle("inputfname").SetAttribute("VALUE", utf82ui(fn))
 	iup.GetHandle("sex").SetAttribute("VALUE", sex)
 
+	iup.GetHandle("eventtypes").SetAttribute("VALUE", 1)
+
 	updateOccupations(events)
-	updatePlaces()
 
 	return
 }

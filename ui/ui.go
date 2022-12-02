@@ -19,10 +19,10 @@ func BuildAndRun() {
 	eventTypes := iup.List().SetHandle("eventtypes").SetAttribute("SIZE", "60x66")
 	initFixedEventtypes()
 	msg := iup.Text().SetAttribute("SIZE", "60x").SetHandle("msg")
-	places := iup.List().SetHandle("places").SetAttribute("SIZE", "85x50")
+	placesMain := iup.List().SetHandle("placesTop").SetAttribute("SIZE", "85x50")
 	initFixedPlaces()
-	places1 := iup.Text().SetHandle("places1").SetAttribute("SIZE", "85x")
-	places2 := iup.List().SetHandle("places2").SetAttribute("SIZE", "85x205")
+	place := iup.Text().SetHandle("placesMiddle").SetAttribute("SIZE", "85x")
+	placesExtra := iup.List().SetHandle("placesBottom").SetAttribute("SIZE", "85x205")
 	occupations := iup.List().SetHandle("occupations").SetAttribute("SIZE", "85x222")
 	personalEvents := iup.List().SetAttribute("SIZE", "240x222").SetHandle("personalEvents")
 	family := iup.List().SetAttribute("SIZE", "240x235").SetHandle("family")
@@ -170,9 +170,9 @@ func BuildAndRun() {
 		).SetAttributes("MARGIN=1x1, GAP=2"),
 		iup.Vbox(
 			occupations,
-			places,
-			places1,
-			places2,
+			placesMain,
+			place,
+			placesExtra,
 			exportButton,
 			exitButton,
 		).SetAttributes("MARGIN=1x1, GAP=2"),
@@ -431,8 +431,9 @@ func BuildAndRun() {
 	iup.SetCallback(newButton, "ACTION", iup.ActionFunc(newPerson))
 	iup.SetCallback(deleteButton, "ACTION", iup.ActionFunc(deletePerson))
 	iup.SetCallback(occupations, "VALUECHANGED_CB", iup.ValueChangedFunc(occupation))
-	iup.SetCallback(places, "VALUECHANGED_CB", iup.ValueChangedFunc(place))
-	iup.SetCallback(places2, "VALUECHANGED_CB", iup.ValueChangedFunc(place))
+	iup.SetCallback(placesMain, "VALUECHANGED_CB", iup.ValueChangedFunc(placesTop))
+	iup.SetCallback(place, "VALUECHANGED_CB", iup.ValueChangedFunc(placeMiddle))
+	iup.SetCallback(placesExtra, "VALUECHANGED_CB", iup.ValueChangedFunc(placeBottom))
 	iup.SetCallback(inputgname, "VALUECHANGED_CB", iup.ValueChangedFunc(gname))
 	iup.SetCallback(msg, "VALUECHANGED_CB", iup.ValueChangedFunc(msgChange))
 

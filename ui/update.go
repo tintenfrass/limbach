@@ -16,7 +16,7 @@ func initFixedEventtypes() {
 
 func initFixedPlaces() {
 	for k, place := range data.Data.Places {
-		iup.SetAttribute(iup.GetHandle("places"), strconv.Itoa(k+1), utf82ui(place))
+		iup.SetAttribute(iup.GetHandle("placesTop"), strconv.Itoa(k+1), utf82ui(place))
 	}
 }
 
@@ -54,6 +54,6 @@ func updatePlaces() {
 	}
 	sort.Strings(places)
 	for k, place := range places {
-		iup.SetAttribute(iup.GetHandle("places2"), strconv.Itoa(k+1), utf82ui(place))
+		iup.SetAttribute(iup.GetHandle("placesBottom"), strconv.Itoa(k+1), utf82ui(place))
 	}
 }

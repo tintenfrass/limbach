@@ -14,7 +14,7 @@ func getSelectedDetails() (details data.Details) {
 	details = data.Details{
 		Type:  ui2utf8(iup.GetHandle("eventtypes").GetAttribute("VALUESTRING")),
 		Msg:   ui2utf8(iup.GetHandle("msg").GetAttribute("VALUE")),
-		Place: ui2utf8(iup.GetHandle("places1").GetAttribute("VALUE")),
+		Place: ui2utf8(iup.GetHandle("placesMiddle").GetAttribute("VALUE")),
 	}
 	iup.GetHandle("msg").SetAttribute("VALUE", "")
 	return

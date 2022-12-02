@@ -126,9 +126,6 @@ func createPersonalData(id int, personalEvents []personalEvent) (valid bool, gn,
 
 	sort.Sort(eventSort(personalEvents))
 	for _, pe := range personalEvents {
-		if len(pe.details.Type) == 0 {
-			continue
-		}
 		events = append(events, fmt.Sprintf("E-%d | %s | %s | %s | %s", pe.eId, pe.date, pe.details.Type, pe.details.Place, pe.details.Msg))
 		if pe.details.Type == "Taufe" || pe.details.Type == "Geburt" {
 			age1 = pe.date

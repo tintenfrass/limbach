@@ -146,8 +146,23 @@ func occupation(ih iup.Ihandle) int {
 	return iup.DEFAULT
 }
 
-func place(ih iup.Ihandle) int {
-	iup.GetHandle("places1").SetAttribute("VALUE", ih.GetAttribute("VALUESTRING"))
+func placesTop(ih iup.Ihandle) int {
+	iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
+	iup.GetHandle("placesMiddle").SetAttribute("VALUE", ih.GetAttribute("VALUESTRING"))
+
+	return iup.DEFAULT
+}
+
+func placeMiddle(ih iup.Ihandle) int {
+	iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
+	iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
+
+	return iup.DEFAULT
+}
+
+func placeBottom(ih iup.Ihandle) int {
+	iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
+	iup.GetHandle("placesMiddle").SetAttribute("VALUE", ih.GetAttribute("VALUESTRING"))
 
 	return iup.DEFAULT
 }
