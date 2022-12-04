@@ -37,13 +37,13 @@ func updatePersonalEvents() {
 		p++
 	}
 
-	updatePlaces()
-
-	iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
-	iup.GetHandle("placesMiddle").SetAttribute("VALUE", "")
-	iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
+	updatePlaces("")
 
 	if len(events) > 0 {
+		iup.GetHandle("placesTop").SetAttribute("VALUE", 0)
+		iup.GetHandle("placesMiddle").SetAttribute("VALUE", "")
+		iup.GetHandle("placesBottom").SetAttribute("VALUE", 0)
+
 		newestEvent := events[len(events)-1]
 		_, _, _, pl, _ := data.SplitEvent(newestEvent)
 

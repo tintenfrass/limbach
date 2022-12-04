@@ -188,6 +188,23 @@ func msgChange(ih iup.Ihandle) int {
 	return iup.DEFAULT
 }
 
+func short(ih iup.Ihandle) int {
+	prefix := ui2utf8(ih.GetAttribute("VALUESTRING"))
+	if len(prefix) == 0 {
+		prefix = " "
+	}
+	updatePlaces(prefix)
+	updateQuick(prefix)
+
+	return iup.DEFAULT
+}
+
+func quickName(ih iup.Ihandle) int {
+	search(iup.GetHandle("search").SetAttribute("VALUE", "? "+ui2utf8(ih.GetAttribute("VALUESTRING"))))
+
+	return iup.DEFAULT
+}
+
 func exit(ih iup.Ihandle) int {
 	data.Save()
 	return iup.CLOSE

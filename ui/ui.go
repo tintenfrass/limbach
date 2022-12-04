@@ -19,14 +19,27 @@ func BuildAndRun() {
 	eventTypes := iup.List().SetHandle("eventtypes").SetAttribute("SIZE", "60x66")
 	initFixedEventtypes()
 	msg := iup.Text().SetAttribute("SIZE", "60x").SetHandle("msg")
-	placesMain := iup.List().SetHandle("placesTop").SetAttribute("SIZE", "85x50")
+	placesMain := iup.List().SetHandle("placesTop").SetAttribute("SIZE", "115x50")
 	initFixedPlaces()
-	place := iup.Text().SetHandle("placesMiddle").SetAttribute("SIZE", "85x")
-	placesExtra := iup.List().SetHandle("placesBottom").SetAttribute("SIZE", "85x205")
-	occupations := iup.List().SetHandle("occupations").SetAttribute("SIZE", "85x222")
+	place := iup.Text().SetHandle("placesMiddle").SetAttribute("SIZE", "115x")
+	placesExtra := iup.List().SetHandle("placesBottom").SetAttribute("SIZE", "115x235")
+	occupations := iup.List().SetHandle("occupations").SetAttribute("SIZE", "115x222")
 	personalEvents := iup.List().SetAttribute("SIZE", "240x222").SetHandle("personalEvents")
 	family := iup.List().SetAttribute("SIZE", "240x235").SetHandle("family")
 	selectButton := iup.Button("Select").SetAttribute("SIZE", "30x15")
+
+	short1 := iup.List().SetAttribute("SIZE", "x130").SetHandle("short1")
+	short2 := iup.List().SetAttribute("SIZE", "x130").SetHandle("short2")
+	letters := []string{" ", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "Sch", "St", "T", "U", "V", "W", "X", "Y", "Z", utf82ui("Ä"), utf82ui("Ö"), utf82ui("Ü")}
+	for key, letter := range letters {
+		if key < 16 {
+			iup.SetAttribute(short1, strconv.Itoa(key+1), letter)
+		} else {
+			iup.SetAttribute(short2, strconv.Itoa(key+1-16), letter)
+		}
+	}
+	quick := iup.List().SetAttribute("SIZE", "60x190").SetHandle("quick")
+	updateQuick("")
 
 	sex := iup.Radio(
 		iup.Vbox(
@@ -130,7 +143,12 @@ func BuildAndRun() {
 			),
 		).SetAttributes("MARGIN=1x1, GAP=1"),
 		iup.Vbox(
-			iup.Space().SetAttribute("SIZE", "x197"),
+			iup.Hbox(
+				iup.Space().SetAttribute("SIZE", "125x196"),
+				short1,
+				short2,
+				quick,
+			),
 			personField,
 		).SetAttributes("MARGIN=1x1, GAP=2"),
 		iup.Vbox(
@@ -176,7 +194,7 @@ func BuildAndRun() {
 			exportButton,
 			exitButton,
 		).SetAttributes("MARGIN=1x1, GAP=2"),
-		iup.Space().SetAttribute("SIZE", "50x"),
+		iup.Space().SetAttribute("SIZE", "30x"),
 		iup.Vbox(
 			iup.Space().SetAttribute("SIZE", "x30"),
 			iup.Hbox(
@@ -436,6 +454,9 @@ func BuildAndRun() {
 	iup.SetCallback(placesExtra, "VALUECHANGED_CB", iup.ValueChangedFunc(placeBottom))
 	iup.SetCallback(inputgname, "VALUECHANGED_CB", iup.ValueChangedFunc(gname))
 	iup.SetCallback(msg, "VALUECHANGED_CB", iup.ValueChangedFunc(msgChange))
+	iup.SetCallback(short1, "VALUECHANGED_CB", iup.ValueChangedFunc(short))
+	iup.SetCallback(short2, "VALUECHANGED_CB", iup.ValueChangedFunc(short))
+	iup.SetCallback(quick, "VALUECHANGED_CB", iup.ValueChangedFunc(quickName))
 
 	//Events
 	iup.SetCallback(personalEvents, "VALUECHANGED_CB", iup.ValueChangedFunc(loadEvent))
