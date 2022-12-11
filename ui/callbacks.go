@@ -45,19 +45,17 @@ func marriedDetails(ih iup.Ihandle) int {
 func search(ih iup.Ihandle) int {
 	val := ih.GetAttribute("VALUE")
 
-	persons := data.FindPerson(strings.TrimSpace((ui2utf8(val))))
-
 	iup.SetAttribute(iup.GetHandle("person"), "REMOVEITEM", "ALL")
 	if len(val) > 0 {
+		persons := data.FindPerson(strings.TrimSpace((ui2utf8(val))))
 		for i, person := range persons {
 			iup.SetAttribute(iup.GetHandle("person"), strconv.Itoa(i+1), utf82ui(person.Data))
 			if i > 100 {
 				break
 			}
 		}
+		createColorBoxes(persons)
 	}
-
-	createColorBoxes(persons)
 
 	return iup.DEFAULT
 }
@@ -200,7 +198,7 @@ func short(ih iup.Ihandle) int {
 }
 
 func quickName(ih iup.Ihandle) int {
-	search(iup.GetHandle("search").SetAttribute("VALUE", "? "+ui2utf8(ih.GetAttribute("VALUESTRING"))))
+	search(iup.GetHandle("search").SetAttribute("VALUE", "? "+ih.GetAttribute("VALUESTRING")))
 
 	return iup.DEFAULT
 }

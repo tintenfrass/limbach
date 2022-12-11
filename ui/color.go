@@ -46,10 +46,10 @@ func create(handle string, colors []byte) {
 	iup.GetHandle(handle).SetAttribute("IMAGE", "colorMap"+handle)
 }
 
-func createColorBoxes(person []data.ResultData) {
+func createColorBoxes(persons []data.ResultData) {
 	for k := 0; k < 46; k++ {
-		if k < len(person) {
-			create("color"+strconv.Itoa(k), createPersonalColor(person[k].Events))
+		if k < len(persons) {
+			create("color"+strconv.Itoa(k), createPersonalColor(persons[k].Events))
 		} else {
 			create("color"+strconv.Itoa(k), createPersonalColor([]string{}))
 		}
