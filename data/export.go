@@ -24,8 +24,14 @@ func getGedcomData(data *FullData) (output string) {
 
 	//header
 	output += "0 HEAD\r\n"
+	output += "1 GEDC\r\n"
+	output += "2 VERS 5.5.1\r\n"
+	output += "2 FORM LINEAGE-LINKED\r\n"
 	output += "1 CHAR UTF-8\r\n"
 	output += "1 SOUR Lÿmpach\r\n"
+	output += "1 SUBM @SUB1@\r\n"
+	output += "0 @SUB1@ SUBM\r\n"
+	output += "1 NAME Tintenfrass\r\n"
 
 	//individuals
 	for _, indi := range data.Individual {
@@ -35,33 +41,48 @@ func getGedcomData(data *FullData) (output string) {
 		}
 
 		output += fmt.Sprintf("0 %s INDI\r\n", getI(indi.Xref))
-		output += fmt.Sprintf("1 NAME %s /%s/\r\n", indi.GName, indi.FName)
+		output += fmt.Sprintf("1 NAME %s /%s/\r\n", strings.Replace(indi.GName, "/", "|", -1), indi.FName)
 		output += fmt.Sprintf("2 GIVN %s\r\n", indi.GName)
-		output += fmt.Sprintf("2 SURN %s\r\n", indi.FName)
+		if len(indi.FName) > 0 {
+			output += fmt.Sprintf("2 SURN %s\r\n", indi.FName)
+		}
 		output += fmt.Sprintf("1 SEX %s\r\n", strings.ToUpper(indi.Sex[:1]))
 		exists, date, place := getBirt(events)
 		if exists {
 			output += "1 BIRT\r\n"
-			output += fmt.Sprintf("2 DATE %s\r\n", date)
-			output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			output += fmt.Sprintf("2 DATE %s\r\n", formatDate(date))
+			if len(place) > 0 {
+				output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			}
 		}
 		exists, date, place = getChr(events)
 		if exists {
 			output += "1 CHR\r\n"
-			output += fmt.Sprintf("2 DATE %s\r\n", date)
-			output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			output += fmt.Sprintf("2 DATE %s\r\n", formatDate(date))
+			if len(place) > 0 {
+				output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			}
 		}
 		exists, date, place = getDeat(events)
 		if exists {
 			output += "1 DEAT\r\n"
-			output += fmt.Sprintf("2 DATE %s\r\n", date)
-			output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			output += fmt.Sprintf("2 DATE %s\r\n", formatDate(date))
+			if len(place) > 0 {
+				output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			}
 		}
 		for _, ev := range getEvents(events) {
+			if len(ev.msg) == 0 && len(ev.typ) == 0 && len(ev.date) == 0 && len(ev.place) == 0 {
+				continue
+			}
 			output += fmt.Sprintf("1 EVEN %s\r\n", ev.msg)
-			output += fmt.Sprintf("2 TYPE %s\r\n", ev.typ)
-			output += fmt.Sprintf("2 DATE %s\r\n", ev.date)
-			output += fmt.Sprintf("2 PLAC %s\r\n", ev.place)
+			if len(ev.typ) > 0 {
+				output += fmt.Sprintf("2 TYPE %s\r\n", ev.typ)
+			}
+			output += fmt.Sprintf("2 DATE %s\r\n", formatDate(ev.date))
+			if len(ev.place) > 0 {
+				output += fmt.Sprintf("2 PLAC %s\r\n", ev.place)
+			}
 		}
 		famc := getFamc(indi.Xref)
 		if len(famc) > 0 {
@@ -84,13 +105,15 @@ func getGedcomData(data *FullData) (output string) {
 		for _, child := range family.Childen {
 			output += fmt.Sprintf("1 CHIL %s\r\n", getI(child))
 		}
-		if family.Married {
-			output += "1 MARR Y\r\n"
-		}
 		exists, date, place := getMarr(family.Father, family.Mother)
 		if exists {
-			output += fmt.Sprintf("2 DATE %s\r\n", date)
-			output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			output += "1 MARR\r\n"
+			output += fmt.Sprintf("2 DATE %s\r\n", formatDate(date))
+			if len(place) > 0 {
+				output += fmt.Sprintf("2 PLAC %s\r\n", place)
+			}
+		} else if family.Married {
+			output += "1 MARR Y\r\n"
 		}
 	}
 
@@ -188,4 +211,68 @@ func getFams(xref int) (fams []string) {
 		}
 	}
 	return
+}
+
+func formatDate(date string) (formated string) {
+	parts := strings.Split(date, ".")
+	switch len(parts) {
+	case 1:
+		if len(parts[0]) == 4 {
+			formated = parts[0]
+		} else {
+			formated = "(" + date + ")"
+		}
+	case 2:
+		month, valid := formatMonth(parts[0])
+		if valid {
+			formated = month + " " + parts[1]
+		} else {
+			formated = "(" + date + ")"
+		}
+	case 3:
+		month, valid := formatMonth(parts[1])
+		if valid && parts[0] != "00" {
+			formated = parts[0] + " " + month + " " + parts[2]
+		} else {
+			formated = "(" + date + ")"
+		}
+	default:
+		formated = "(" + date + ")"
+	}
+
+	return
+}
+
+func formatMonth(month string) (string, bool) {
+	if len(month) > 1 && month[:1] == "0" {
+		month = month[1:]
+	}
+
+	switch month {
+	case "1":
+		return "JAN", true
+	case "2":
+		return "FEB", true
+	case "3":
+		return "MAR", true
+	case "4":
+		return "APR", true
+	case "5":
+		return "MAY", true
+	case "6":
+		return "JUN", true
+	case "7":
+		return "JUL", true
+	case "8":
+		return "AUG", true
+	case "9":
+		return "SEP", true
+	case "10":
+		return "OCT", true
+	case "11":
+		return "NOV", true
+	case "12":
+		return "DEC", true
+	}
+	return month, false
 }
